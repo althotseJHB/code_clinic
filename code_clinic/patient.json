@@ -1,0 +1,919 @@
+[
+    {
+        "kind": "calendar#event",
+        "etag": "\"3210503214920000\"",
+        "id": "0l1454onm5aung5u1bs5tv8a8k",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MGwxNDU0b25tNWF1bmc1dTFiczV0djhhOGtfMjAyMDExMTNUMTEwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
+        "created": "2020-11-12T15:41:56.000Z",
+        "updated": "2020-11-13T07:13:27.460Z",
+        "summary": "JHB Team 12 Demo",
+        "creator": {
+            "email": "nkholane@student.wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "nkholane@student.wethinkcode.co.za"
+        },
+        "start": {
+            "dateTime": "2020-11-13T13:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-11-13T14:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "recurrence": [
+            "RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20210312T215959Z;INTERVAL=2;BYDAY=FR"
+        ],
+        "iCalUID": "0l1454onm5aung5u1bs5tv8a8k@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "lmduduzi@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nkholane@student.wethinkcode.co.za",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "althotse@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "rellis@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tlethets@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "jmohale@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/ifr-cqhi-cfe",
+        "conferenceData": {
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/ifr-cqhi-cfe",
+                    "label": "meet.google.com/ifr-cqhi-cfe"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/ifr-cqhi-cfe?pin=8299734171371",
+                    "pin": "8299734171371"
+                },
+                {
+                    "regionCode": "ZA",
+                    "entryPointType": "phone",
+                    "uri": "tel:+27-10-823-0700",
+                    "label": "+27 10 823 0700",
+                    "pin": "796653387"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://lh5.googleusercontent.com/proxy/bWvYBOb7O03a7HK5iKNEAPoUNPEXH1CHZjuOkiqxHx8OtyVn9sZ6Ktl8hfqBNQUUbCDg6T2unnsHx7RSkCyhrKgHcdoosAW8POQJm_ZEvZU9ZfAE7mZIBGr_tDlF8Z_rSzXcjTffVXg3M46v"
+            },
+            "conferenceId": "ifr-cqhi-cfe",
+            "signature": "AGkP/s1B+L4wRsJnBu5+5XAjRsYD"
+        },
+        "reminders": {
+            "useDefault": true
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3210531643113000\"",
+        "id": "voi744v97tchjig5iecbool9eo",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=dm9pNzQ0djk3dGNoamlnNWllY2Jvb2w5ZW8gc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
+        "created": "2020-11-13T11:10:21.000Z",
+        "updated": "2020-11-13T11:10:21.631Z",
+        "summary": "Angular",
+        "description": "Intro to Angular",
+        "creator": {
+            "email": "smabitse@student.wethinkcode.co.za",
+            "self": true
+        },
+        "organizer": {
+            "email": "smabitse@student.wethinkcode.co.za",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2020-12-01T13:30:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-12-01T14:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "iCalUID": "voi744v97tchjig5iecbool9eo@google.com",
+        "sequence": 0,
+        "hangoutLink": "https://meet.google.com/fig-ydke-aah",
+        "conferenceData": {
+            "createRequest": {
+                "requestId": "1a590d5d945a4cadbd6f8d2312ad8634",
+                "conferenceSolutionKey": {
+                    "type": "hangoutsMeet"
+                },
+                "status": {
+                    "statusCode": "success"
+                }
+            },
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/fig-ydke-aah",
+                    "label": "meet.google.com/fig-ydke-aah"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/fig-ydke-aah?pin=3866342655423",
+                    "pin": "3866342655423"
+                },
+                {
+                    "regionCode": "ZA",
+                    "entryPointType": "phone",
+                    "uri": "tel:+27-10-823-0736",
+                    "label": "+27 10 823 0736",
+                    "pin": "600902022"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://lh5.googleusercontent.com/proxy/bWvYBOb7O03a7HK5iKNEAPoUNPEXH1CHZjuOkiqxHx8OtyVn9sZ6Ktl8hfqBNQUUbCDg6T2unnsHx7RSkCyhrKgHcdoosAW8POQJm_ZEvZU9ZfAE7mZIBGr_tDlF8Z_rSzXcjTffVXg3M46v"
+            },
+            "conferenceId": "fig-ydke-aah",
+            "signature": "AGkP/s1Mdr4gQ+HT8lm32lWP9l6z"
+        },
+        "reminders": {
+            "useDefault": false,
+            "overrides": [
+                {
+                    "method": "email",
+                    "minutes": 1440
+                },
+                {
+                    "method": "popup",
+                    "minutes": 10
+                }
+            ]
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3211041130846000\"",
+        "id": "1aqh3m9nos6h7vk8quh59uj13f",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTJUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
+        "created": "2020-10-10T17:30:07.000Z",
+        "updated": "2020-11-16T09:56:05.423Z",
+        "summary": "Daily Stand-Up",
+        "description": "Daily stand up with mentor just to check in on your progress",
+        "creator": {
+            "email": "nkholane@student.wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "nkholane@student.wethinkcode.co.za"
+        },
+        "start": {
+            "dateTime": "2020-10-12T11:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-10-12T12:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "recurrence": [
+            "RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20210101T215959Z;BYDAY=FR,MO,WE"
+        ],
+        "iCalUID": "1aqh3m9nos6h7vk8quh59uj13f@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "lmduduzi@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nkholane@student.wethinkcode.co.za",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "althotse@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "rellis@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "jmohale@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tlethets@student.wethinkcode.co.za",
+                "responseStatus": "declined"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/occ-zahw-qzr",
+        "conferenceData": {
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/occ-zahw-qzr",
+                    "label": "meet.google.com/occ-zahw-qzr"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/occ-zahw-qzr?pin=1465362783586",
+                    "pin": "1465362783586"
+                },
+                {
+                    "regionCode": "ZA",
+                    "entryPointType": "phone",
+                    "uri": "tel:+27-10-823-0641",
+                    "label": "+27 10 823 0641",
+                    "pin": "434472856"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://lh5.googleusercontent.com/proxy/bWvYBOb7O03a7HK5iKNEAPoUNPEXH1CHZjuOkiqxHx8OtyVn9sZ6Ktl8hfqBNQUUbCDg6T2unnsHx7RSkCyhrKgHcdoosAW8POQJm_ZEvZU9ZfAE7mZIBGr_tDlF8Z_rSzXcjTffVXg3M46v"
+            },
+            "conferenceId": "occ-zahw-qzr",
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
+        },
+        "reminders": {
+            "useDefault": true
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3212132060844000\"",
+        "id": "39rn8mmtp6k1subrbak8or24qs",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MzlybjhtbXRwNmsxc3VicmJhazhvcjI0cXNfMjAyMDExMTNUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
+        "created": "2020-11-12T11:07:39.000Z",
+        "updated": "2020-11-22T17:27:10.422Z",
+        "summary": "JHB_Team 12 Demo Showcase",
+        "creator": {
+            "email": "jmohale@student.wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "c_8o0g2bsqbqpmp47ik4slofs3s8@group.calendar.google.com",
+            "displayName": "2020 Group Project Demos"
+        },
+        "start": {
+            "dateTime": "2020-11-13T11:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-11-13T12:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "recurrence": [
+            "RRULE:FREQ=WEEKLY;WKST=SU;COUNT=3;INTERVAL=2;BYDAY=FR"
+        ],
+        "iCalUID": "39rn8mmtp6k1subrbak8or24qs@google.com",
+        "sequence": 1,
+        "attendees": [
+            {
+                "email": "lmduduzi@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "nkholane@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "althotse@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "rellis@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tlethets@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "jmohale@student.wethinkcode.co.za",
+                "responseStatus": "declined"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/mgi-izgx-mxx",
+        "conferenceData": {
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/mgi-izgx-mxx",
+                    "label": "meet.google.com/mgi-izgx-mxx"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/mgi-izgx-mxx?pin=1491223206982",
+                    "pin": "1491223206982"
+                },
+                {
+                    "regionCode": "US",
+                    "entryPointType": "phone",
+                    "uri": "tel:+1-385-374-0199",
+                    "label": "+1 385-374-0199",
+                    "pin": "659320428"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://lh5.googleusercontent.com/proxy/bWvYBOb7O03a7HK5iKNEAPoUNPEXH1CHZjuOkiqxHx8OtyVn9sZ6Ktl8hfqBNQUUbCDg6T2unnsHx7RSkCyhrKgHcdoosAW8POQJm_ZEvZU9ZfAE7mZIBGr_tDlF8Z_rSzXcjTffVXg3M46v"
+            },
+            "conferenceId": "mgi-izgx-mxx",
+            "signature": "AGkP/s1aTfX7Tk/WGM5dFQRx5Zvl"
+        },
+        "guestsCanModify": true,
+        "reminders": {
+            "useDefault": true
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3212132060844000\"",
+        "id": "39rn8mmtp6k1subrbak8or24qs_20201211T090000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MzlybjhtbXRwNmsxc3VicmJhazhvcjI0cXNfMjAyMDEyMTFUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
+        "created": "2020-11-12T11:07:39.000Z",
+        "updated": "2020-11-22T17:27:10.422Z",
+        "summary": "JHB_Team 12 Demo Showcase",
+        "creator": {
+            "email": "jmohale@student.wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "c_8o0g2bsqbqpmp47ik4slofs3s8@group.calendar.google.com",
+            "displayName": "2020 Group Project Demos"
+        },
+        "start": {
+            "dateTime": "2020-12-11T11:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-12-11T12:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "recurringEventId": "39rn8mmtp6k1subrbak8or24qs",
+        "originalStartTime": {
+            "dateTime": "2020-12-11T11:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "iCalUID": "39rn8mmtp6k1subrbak8or24qs@google.com",
+        "sequence": 1,
+        "attendees": [
+            {
+                "email": "lmduduzi@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "nkholane@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "althotse@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "rellis@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tlethets@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "jmohale@student.wethinkcode.co.za",
+                "responseStatus": "declined"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/mgi-izgx-mxx",
+        "conferenceData": {
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/mgi-izgx-mxx",
+                    "label": "meet.google.com/mgi-izgx-mxx"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/mgi-izgx-mxx?pin=1491223206982",
+                    "pin": "1491223206982"
+                },
+                {
+                    "regionCode": "US",
+                    "entryPointType": "phone",
+                    "uri": "tel:+1-385-374-0199",
+                    "label": "+1 385-374-0199",
+                    "pin": "659320428"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://lh5.googleusercontent.com/proxy/bWvYBOb7O03a7HK5iKNEAPoUNPEXH1CHZjuOkiqxHx8OtyVn9sZ6Ktl8hfqBNQUUbCDg6T2unnsHx7RSkCyhrKgHcdoosAW8POQJm_ZEvZU9ZfAE7mZIBGr_tDlF8Z_rSzXcjTffVXg3M46v"
+            },
+            "conferenceId": "mgi-izgx-mxx",
+            "signature": "AGkP/s1aTfX7Tk/WGM5dFQRx5Zvl"
+        },
+        "guestsCanModify": true,
+        "reminders": {
+            "useDefault": true
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3212235321054000\"",
+        "id": "7le6u2ar2q2joso9pt1s4ijuum",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=N2xlNnUyYXIycTJqb3NvOXB0MXM0aWp1dW0gc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
+        "created": "2020-11-20T04:04:26.000Z",
+        "updated": "2020-11-23T07:47:40.527Z",
+        "summary": "Cohort 2020 Town Hall - Group 2",
+        "description": "Town hall meeting held by Nyari. <b>This is a mandatory in person meeting on the 5th floor open area.</b>",
+        "location": "Johannesburg-5-Open Area (150)",
+        "creator": {
+            "email": "moloko@wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "c_cpq2fq1tb809thq9dvlp2e3ekg@group.calendar.google.com",
+            "displayName": "Campus bookings"
+        },
+        "start": {
+            "dateTime": "2020-11-24T14:00:00+02:00"
+        },
+        "end": {
+            "dateTime": "2020-11-24T16:00:00+02:00"
+        },
+        "iCalUID": "7le6u2ar2q2joso9pt1s4ijuum@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "lemohlala@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "lmamabol@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "xndlangi@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ndumasi@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ntlamola@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "zmanyath@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "wtwala@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "rsenne@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tsoulo@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "mtshishi@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "sntjobok@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tmoletsa@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "vtiti@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "smsweli@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "vpekane@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nmaguban@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tmuhali@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "phmabits@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sbaloyi@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tlethets@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "nwalter@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "nogumbi@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tramabin@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ntmalule@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "wradams@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nknkosi@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "nmoosa@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nngcai@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nkradebe@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "nndengez@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "mmashaba@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "mmoshabe@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "xotshaba@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tsithole@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nthabeth@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "omoima@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tmoshole@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "vsithole@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "stoyi@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tsmadela@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tmathebu@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "pmolokwa@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "smciwa@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "wmakoae@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "yzwane@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "smatsena@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tmakae@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "mfutjane@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "rbrummer@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ndhlamin@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "zngubane@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "zmfeka@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "smanana@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nthemba@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "sniekerk@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "zezwane@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sncube@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "sqangule@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sigamede@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "thasitho@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "tradebe@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "moolivie@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "unnemuta@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "wmagagul@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "sbnkosi@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "tmngomez@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "phmgagul@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tetema@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "plnyakan@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "raziz@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "rellis@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "tkwayiba@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "smzimela@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "nonxele@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "vloti@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "mmalatji@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "tmataban@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nmnguni@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "prama@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "rsamdaan@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "pafernan@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "momotaun@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "rmonatis@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "tlmokabo@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ukhoba@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nama@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "sdubazan@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "tslephal@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ntmaduna@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sserakal@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "pimahlan@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "osegobae@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "vgovende@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "sisandla@student.wethinkcode.co.za",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "wethinkcode.co.za_3836353535323631323731@resource.calendar.google.com",
+                "displayName": "Johannesburg-5-Open Area (150)",
+                "resource": true,
+                "responseStatus": "accepted"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/nzr-scvz-azx",
+        "conferenceData": {
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/nzr-scvz-azx",
+                    "label": "meet.google.com/nzr-scvz-azx"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/nzr-scvz-azx?pin=9115177317348",
+                    "pin": "9115177317348"
+                },
+                {
+                    "regionCode": "ZA",
+                    "entryPointType": "phone",
+                    "uri": "tel:+27-10-823-0403",
+                    "label": "+27 10 823 0403",
+                    "pin": "707106458"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://lh5.googleusercontent.com/proxy/bWvYBOb7O03a7HK5iKNEAPoUNPEXH1CHZjuOkiqxHx8OtyVn9sZ6Ktl8hfqBNQUUbCDg6T2unnsHx7RSkCyhrKgHcdoosAW8POQJm_ZEvZU9ZfAE7mZIBGr_tDlF8Z_rSzXcjTffVXg3M46v"
+            },
+            "conferenceId": "nzr-scvz-azx",
+            "signature": "AGkP/s1TOkiP83h+9NxOwky2EM0A"
+        },
+        "reminders": {
+            "useDefault": true
+        }
+    }
+]
