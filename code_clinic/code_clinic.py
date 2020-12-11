@@ -824,3 +824,94 @@ def delete_event():
 # althotse
 
 # rellis
+
+
+
+if __name__ == "__main__":
+    #jmohale
+    service = get_calendar_service()
+    
+    my_parser = argparse.ArgumentParser(prog="booking", description="These are the code clinic commands that can be used in various situations:", usage='%(prog)s <command> [<args]', formatter_class=argparse.RawDescriptionHelpFormatter,
+                                        epilog=textwrap.dedent('''\
+            Working with the calendar
+                    book_slot             - book a slot for help 
+                    view_calendar         - display your calendar events and code clinic events
+                    volunteer_slot        - create a slot to volunteer
+                    cancel_booking        - cancel you booking 
+                    cancel_volunteer_slot - remove yourself as a volunteer
+                    view_slot             - view all available slots
+
+
+         '''), add_help=False)
+
+
+    if len(sys.argv) == 1:
+        my_parser.print_help()
+        # view_available_slots()
+    elif len(sys.argv) == 2 and sys.argv[1] == 'view_calendar':
+        view_calendar(service)
+        # display_calendar(USER_EVENTS, 'MY CALENDAR', 15)
+        # display_calendar(CLINIC_EVENTS, 'CLINIC CALENDAR', 15)
+    elif len(sys.argv) == 2 and sys.argv[1] == 'volunteer_slot':
+        volunteer_slot(service)
+        download_event(service)
+    elif len(sys.argv) == 2 and sys.argv[1] == 'book_slot':
+        book_slot(service)
+        download_event(service)
+    elif len(sys.argv) == 2 and sys.argv[1] == 'view_slot':
+        print(view_available_slots(), '\n')
+    elif len(sys.argv) == 3 and valid_book_commands(sys.argv[1:]):
+        book_slot(service, sys.argv[2])
+    elif len(sys.argv) == 2 and sys.argv[1] == 'cancel_volunteer_slot':
+        cancel_slot(service)
+        download_event(service)
+    elif len(sys.argv) == 2 and sys.argv[1] == 'cancel_booking':
+        
+if __name__ == "__main__":
+    #jmohale
+    service = get_calendar_service()
+    
+    my_parser = argparse.ArgumentParser(prog="booking", description="These are the code clinic commands that can be used in various situations:", usage='%(prog)s <command> [<args]', formatter_class=argparse.RawDescriptionHelpFormatter,
+                                        epilog=textwrap.dedent('''\
+            Working with the calendar
+                    book_slot             - book a slot for help 
+                    view_calendar         - display your calendar events and code clinic events
+                    volunteer_slot        - create a slot to volunteer
+                    cancel_booking        - cancel you booking 
+                    cancel_volunteer_slot - remove yourself as a volunteer
+                    view_slot             - view all available slots
+
+
+         '''), add_help=False)
+
+
+    if len(sys.argv) == 1:
+        my_parser.print_help()
+        # view_available_slots()
+    elif len(sys.argv) == 2 and sys.argv[1] == 'view_calendar':
+        view_calendar(service)
+        # display_calendar(USER_EVENTS, 'MY CALENDAR', 15)
+        # display_calendar(CLINIC_EVENTS, 'CLINIC CALENDAR', 15)
+    elif len(sys.argv) == 2 and sys.argv[1] == 'volunteer_slot':
+        volunteer_slot(service)
+        download_event(service)
+    elif len(sys.argv) == 2 and sys.argv[1] == 'book_slot':
+        book_slot(service)
+        download_event(service)
+    elif len(sys.argv) == 2 and sys.argv[1] == 'view_slot':
+        print(view_available_slots(), '\n')
+    elif len(sys.argv) == 3 and valid_book_commands(sys.argv[1:]):
+        book_slot(service, sys.argv[2])
+    elif len(sys.argv) == 2 and sys.argv[1] == 'cancel_volunteer_slot':
+        cancel_slot(service)
+        download_event(service)
+    elif len(sys.argv) == 2 and sys.argv[1] == 'cancel_booking':
+        booking_cancalation(service)
+        download_event(service)
+    else:
+        print(view_available_slots(), '\n')
+        my_parser.print_help()
+        download_event(service)
+    else:
+        print(view_available_slots(), '\n')
+        my_parser.print_help()
