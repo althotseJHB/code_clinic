@@ -157,13 +157,10 @@ def file_obj(filename):
         data = json.load(f)
     return data
 
-j = file_obj(CLINIC_EVENTS)
-for x in j:
-    print(j[0]) 
 
 
 def view_available_slots():
-    download_event(service)
+    # download_event(service)
     with open(CLINIC_EVENTS) as events:
         data = json.load(events)
 
@@ -452,23 +449,26 @@ def sorted_information(final_list, cal_events):
         for event_details in cal_events['items']:
             if events_available['creator']['email'].split('@')[0] == clin_name and event_details['summary'] == evnt_topic:
                 event_temp['event id'].append(event_details['id'])
-            if len(event_details['attendees']) == 1:
-                status = colored(max_display('slot Open'), 'green')
-            elif len(event_details['attendees']) == 2:
-                status = colored(max_display('slot Closed'), 'red')
-            
-            event_temp['Status'].append(status)
-            extracted_date = str(event_details['start']['dateTime'])
-            end_time = str(event_details['end']['dateTime'])
-            temp_date = extracted_date[:10]
-            start_time = extracted_date[11:-9]
-            end_time = end_time[11:-9]
-            event_temp['Date and time'].append(get_date(temp_date))
-            event_temp['Time'].append(f'{start_time} to {end_time}')
+                if len(event_details['attendees']) == 1:
+                    status = colored(max_display('slot Open'), 'green')
+                    # status = max_display('slot Open')
+
+                elif len(event_details['attendees']) == 2:
+                    status = colored(max_display('slot Closed'), 'red')
+                    # status = max_display('slot Open')
+                event_temp['Status'].append(status)
+                extracted_date = str(event_details['start']['dateTime'])
+                end_time = str(event_details['end']['dateTime'])
+                temp_date = extracted_date[:10]
+                start_time = extracted_date[11:-9]
+                end_time = end_time[11:-9]
+                event_temp['Date and time'].append(get_date(temp_date))
+                event_temp['Time'].append(f'{start_time} to {end_time}')
 
         if event_temp in final_list:
             continue
         else:
+
             final_list.append(event_temp)
     return final_list
 
@@ -535,7 +535,7 @@ def display_table_and_information(list_events):
                     display_rows_and_col(events_list['topic'],events_list['Clinician name'],events_list['Status'][events],events_list['event id'][events],events_list['Date and time'][events],events_list['Time'][events],count)
             print(colored("~"*154,'blue')) 
         else:
-            for eventy in range(len(events_list['event id'][0])-1):
+            for eventy in range(0,3):
                 if eventy == 0 or eventy == 2:
                     display_rows_and_col_one(events_list['Status'][eventy],events_list['event id'][eventy],events_list['Time'][eventy],0)
                 elif eventy == 1:
