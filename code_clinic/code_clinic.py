@@ -1,70 +1,75 @@
 #!/usr/bin/env python3
 # import importer
+import sys
 import os
+import os.path
 import colorsys
 import datetime
 import datefinder
 from termcolor import colored
-# import importer
-import os
-import colorsys
-import datetime
-import datefinder
-from termcolor import colore
-# from __future__ import print_function
-import datetime
 from dateutil import parser
 import pickle
-import os.path
+import pickle
 from tabulate import tabulate
-import datefinder
-from datetime import timedelta
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
-from termcolor import colored
+from apiclient.discovery import build
+from googleapiclient.errors import HttpError
+from datetime import datetime, timedelta, date
+from datetimerange import DateTimeRange
 import json
 import argparse
 import textwrap
-import datefinder
-import pickle
-import os.path
-import sys
 from uuid import uuid4
-from apiclient.discovery import build
-from dateutil import parser
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from googleapiclient.errors import HttpError
-from datetime import datetime, timedelta, date
-from termcolor import colored
-from tabulate import tabulate
 from tqdm import tqdm
-# from __future__ import print_function
-import datetime
-from dateutil import parser
-import pickle
-import os.path
-from tabulate import tabulate
-import datefinder
-from datetime import timedelta
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from termcolor import colored 
-
-
 
 CLINIC_CALENDAR_ID = 'c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com'
-
+CREDENTIALS_FILE = 'client_secret.json'
 CLINIC_EVENTS = 'clinic.json'
 USER_EVENTS = 'patient.json'
 DATE_FORMAT = '%Y-%m-%dT%H:%M:%S+02:00'
+SCOPES = ['https://www.googleapis.com/auth/calendar']
 
+#althotse
+# def client_secret():
+#     with open("client_secret.json",'r') as secret:
+#         a = secret.read()
+#         secret.close()
+#         return a
+# client_secret()
 
 # jmohale
-class HttpError(object):
-    pass
+def get_calendar_service():
+    """
+    Create the calendar api service
+    :return service: google calendar api service
+    """
+
+    creds = None
+    # The file token.pickle stores the user's access and refresh tokens, and is
+    # created automatically when the authorization flow completes for the first
+    # time.
+    if os.path.exists('token.pickle'):
+        with open('token.pickle', 'rb') as token:
+            creds = pickle.load(token)
+
+    # If there are no (valid) credentials available, let the user log in.
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(
+                CREDENTIALS_FILE, SCOPES)
+            creds = flow.run_console()
+
+        # Save the credentials for the next run
+        with open('token.pickle', 'wb') as token:
+            pickle.dump(creds, token)
+
+    service = build('calendar', 'v3', credentials=creds)
+    return service
 
 
 def book_slot(service):
@@ -90,7 +95,8 @@ def book_slot(service):
         elif patient_email in [attendee['email'] for attendee in attendee_info]:
             print('you cant book your own slot.')
         elif check_calendar_conflict(event_id):
-            print("You already have an event at this time slot. Please choose another slot!")
+            print(
+                "You already have an event at this time slot. Please choose another slot!")
         else:
             event = service.events().get(calendarId=CLINIC_CALENDAR_ID,
                                          eventId=event_id).execute()
@@ -150,6 +156,10 @@ def file_obj(filename):
     with open(filename) as f:
         data = json.load(f)
     return data
+
+j = file_obj(CLINIC_EVENTS)
+for x in j:
+    print(j[0]) 
 
 
 def view_available_slots():
@@ -212,9 +222,9 @@ def download_event(service):
     max_range = max_range.strftime("%Y-%m-%dT%H:%M:%S+02:00")
 
     patient_events = service.events().list(
-        calendarId='primary', timeMin=min_range).execute().get('items', [])
+        calendarId='primary', timeMin=min_range, timeMax=max_range).execute().get('items', [])
     clinic_events = service.events().list(
-        calendarId=CLINIC_CALENDAR_ID, timeMin=min_range).execute().get('items', [])
+        calendarId=CLINIC_CALENDAR_ID, timeMin=min_range, timeMax=max_range).execute().get('items', [])
 
     p_obj = json.dumps(check_recurring_events(
         service, patient_events), indent=4)
@@ -269,7 +279,8 @@ def check_volunteer_slot_conflict(data_file, start_date_time):
         event_end = event['end']['dateTime']
         event_start_obj = datetime.strptime(event_start, time_format)
         event_end_obj = datetime.strptime(event_end, time_format)
-        event_start_obj_str = event_start_obj.strftime("[%A]\t[%d-%m-%Y]\t[%H:%M")
+        event_start_obj_str = event_start_obj.strftime(
+            "[%A]\t[%d-%m-%Y]\t[%H:%M")
         event_end_obj_str = event_end_obj.strftime(" - %H:%M].")
         volunteer_slot_time_range = DateTimeRange(
             start_date_time_str, end_date_time_str)
@@ -360,11 +371,11 @@ def volunteer_slot(service):
                 event = service.events().insert(calendarId=CLINIC_CALENDAR_ID,
                                                 body=event, conferenceDataVersion=1).execute()
                 start_date_time = start_date_time + \
-                                  timedelta(minutes=increment_time)
+                    timedelta(minutes=increment_time)
                 start_date_time_str = start_date_time.strftime(
                     "%Y-%m-%dT%H:%M:%S+02:00")
                 end_date_time = end_date_time + \
-                                timedelta(minutes=increment_time)
+                    timedelta(minutes=increment_time)
                 end_date_time_str = end_date_time.strftime(
                     "%Y-%m-%dT%H:%M:%S+02:00")
                 number_of_slots += 1
@@ -396,16 +407,17 @@ def volunteer_slot(service):
 
 def sorted_information_cancel_slot(final_lis, events):
     """This function return a dictionary with information sorted accordingly"""
+    
     count = 0
     event_count = 0
     for events_available in events['items']:
-        clin_name = events_available['description']
+        clin_name = events_available['creator']['email'].split('@')[0]
         evnt_topic = events_available['summary']
         event_temp = {'topic': evnt_topic, 'Clinician name': clin_name, 'event id': [], 'Status': [],
                       'Date and time': [], 'Time': []}
 
     for event_details in events['items']:
-        if event_details['description'] == clin_name and event_details['summary'] == evnt_topic:
+        if events_available['creator']['email'].split('@')[0]== clin_name and event_details['summary'] == evnt_topic:
             event_temp['event id'].append(event_details['id'])
             if len(event_details['attendees']) == 1:
                 status = colored(max_display('slot Open'), 'green')
@@ -431,19 +443,20 @@ def sorted_information(final_list, cal_events):
     '''This function takes two parameters the list and the calander info and puts
         them in a dictionary in a sorted way and when done append that dictionary to
     the list and returns  that list when it is done'''
-    count = 0
     for events_available in cal_events['items']:
-        clin_name = events_available['description']
+        clin_name = events_available['creator']['email'].split('@')[0]
         evnt_topic = events_available['summary']
         event_temp = {'topic': evnt_topic, 'Clinician name': clin_name,
                       'event id': [], 'Status': [], 'Date and time': [], 'Time': []}
+        
         for event_details in cal_events['items']:
-            if event_details['description'] == clin_name and event_details['summary'] == evnt_topic:
+            if events_available['creator']['email'].split('@')[0] == clin_name and event_details['summary'] == evnt_topic:
                 event_temp['event id'].append(event_details['id'])
             if len(event_details['attendees']) == 1:
                 status = colored(max_display('slot Open'), 'green')
             elif len(event_details['attendees']) == 2:
                 status = colored(max_display('slot Closed'), 'red')
+            
             event_temp['Status'].append(status)
             extracted_date = str(event_details['start']['dateTime'])
             end_time = str(event_details['end']['dateTime'])
@@ -494,14 +507,16 @@ def display_table_and_information_no_return(sorted_events):
 
 def check_the_id(events):
     '''This function takes the eventId provided by the user and check if it is valid and return it if true '''
-    event_id = input('Please copy & paste the event id that you want to cancel: ')
+    event_id = input(
+        'Please copy & paste the event id that you want to cancel: ')
     while True:
         for count in events:
             if event_id in count['event id']:
                 return event_id
             else:
                 print('Please type or copy the correct event name')
-                event_id = input('Please copy & paste the event id that you want to cancel: ')
+                event_id = input(
+                    'Please copy & paste the event id that you want to cancel: ')
 
 
 def display_table_and_information(list_events):
@@ -510,32 +525,24 @@ def display_table_and_information(list_events):
     count = 0
     for events_list in list_events:
         if len(events_list['event id']) == 1:
-            display_rows_and_col(events_list['topic'], events_list['Clinician name'], events_list['Status'][0],
-                                 events_list['event id'][0], events_list['Date and time'][0], events_list['Time'][0],
-                                 count)
-            print(colored("~" * 154, 'blue'))
+            display_rows_and_col(events_list['topic'],events_list['Clinician name'],events_list['Status'][0],events_list['event id'][0],events_list['Date and time'][0],events_list['Time'][0],count)
+            print(colored("~"*154,'blue'))
         elif len(events_list['event id']) == 2:
             for events in range(2):
                 if events == 0:
-                    display_rows_and_col_one(events_list['Status'][events], events_list['event id'][events],
-                                             events_list['Time'][events], 0)
+                    display_rows_and_col_one(events_list['Status'][events],events_list['event id'][events],events_list['Time'][events],0)
                 if events == 1:
-                    display_rows_and_col(events_list['topic'], events_list['Clinician name'],
-                                         events_list['Status'][events], events_list['event id'][events],
-                                         events_list['Date and time'][events], events_list['Time'][events], count)
-            print(colored("~" * 154, 'blue'))
+                    display_rows_and_col(events_list['topic'],events_list['Clinician name'],events_list['Status'][events],events_list['event id'][events],events_list['Date and time'][events],events_list['Time'][events],count)
+            print(colored("~"*154,'blue')) 
         else:
-            for events in range(len(events_list['event id'][0]) - 1):
-                if events == 0 or events == 2:
-                    display_rows_and_col_one(events_list['Status'][events], events_list['event id'][events],
-                                             events_list['Time'][events], 0)
-                elif events == 1:
-                    display_rows_and_col(events_list['topic'], events_list['Clinician name'],
-                                         events_list['Status'][events], events_list['event id'][events],
-                                         events_list['Date and time'][events], events_list['Time'][events], count)
-        print(colored("~" * 154, 'blue'))
+            for eventy in range(len(events_list['event id'][0])-1):
+                if eventy == 0 or eventy == 2:
+                    display_rows_and_col_one(events_list['Status'][eventy],events_list['event id'][eventy],events_list['Time'][eventy],0)
+                elif eventy == 1:
+                    display_rows_and_col(events_list['topic'],events_list['Clinician name'],events_list['Status'][eventy],events_list['event id'][eventy],events_list['Date and time'][eventy],events_list['Time'][eventy],count)   
+            print(colored("~"*154,'blue'))
         count += 1
-    result = check_the_id(list_events)
+    result  = check_the_id(list_events)
     return result
 
 
@@ -566,13 +573,15 @@ def max_display(name):
 def get_number(events_lenght):
     '''This function checks the number provided by the user and return the number if it is correct'''
     print("Note: you can't delete that slot if its has been booked")
-    event_number = input("Please choose a number of the event that you want to remove :")
+    event_number = input(
+        "Please choose a number of the event that you want to remove :")
     while True:
         if event_number.isdigit() == True and 0 <= int(event_number) <= events_lenght:
             return int(event_number)
         else:
             print('Please make sure that it is a number')
-            event_number = input("Please choose a number of the event that you want to remove :")
+            event_number = input(
+                "Please choose a number of the event that you want to remove :")
 
 
 def display_table_header():
@@ -600,19 +609,26 @@ def display_rows_and_col_one(event_status, event_id, event_time, count):
 def booking_cancalation(service):
     """This function cancels the second attendee of the event if the emails are the same"""
     page_token = None
-    all_events = []
+    all_event = []
     event_id_andstatus = []
-    events = service.events().list(calendarId='f5dk826mlubpqfmmq5fjv9kbqo@group.calendar.google.com',
-                                   pageToken=page_token, ).execute()
-    user_details = service.events().list(calendarId='primary', pageToken=page_token, ).execute()
+    min_range = datetime.now().replace(
+        hour=0, minute=0, second=1)
+    max_range = min_range.replace(hour=23, minute=59, second=59) + timedelta(6)
+    min_range = min_range.strftime("%Y-%m-%dT%H:%M:%S+02:00")
+    max_range = max_range.strftime("%Y-%m-%dT%H:%M:%S+02:00")
+
+    events = service.events().list(calendarId=CLINIC_CALENDAR_ID ,
+                                   pageToken=page_token,timeMin=min_range ,timeMax=max_range).execute()
+    user_details = service.events().list(
+        calendarId='primary', pageToken=page_token,timeMin = min_range ,timeMax = max_range).execute()
+    
     events_2 = events
     if len(events['items']) == 0:
         return print(colored("Sorry there are no available slots open to cancel for now", "red"))
     else:
         display_table_header()
-        count = 0
-        all_events = sorted_information(all_events, events)
-    event_ID = display_table_and_information(all_events)
+        all_events = sorted_information(all_event, events)
+        event_ID = display_table_and_information(all_events)
 
     for v in events_2['items']:
         if event_ID == v['id'] and len(v['attendees']) == 2:
@@ -632,19 +648,21 @@ def booking_cancalation(service):
     }
     yes = ['Y', 'y', 'yes']
     no = ['N', 'n', 'no']
-    final_answer = input('Are you sure you want to cancel your booking(Y/N) : ')
+    final_answer = input(
+        'Are you sure you want to cancel your booking(Y/N) : ')
     while True:
         if final_answer.isalpha() == True:
             final_answer = final_answer.lower()
         if final_answer in yes:
-            service.events().patch(calendarId='f5dk826mlubpqfmmq5fjv9kbqo@group.calendar.google.com', eventId=event_ID,
+            service.events().patch(calendarId=CLINIC_CALENDAR_ID, eventId=event_ID,
                                    body=event, sendUpdates='all').execute()
             return print('booking canceled')
         if final_answer in no:
             return print('almost canceled your booking')
         else:
             print('Please type the correct answer')
-            final_answer = input('Are you sure you want to cancel your booking(Y/N) : ')
+            final_answer = input(
+                'Are you sure you want to cancel your booking(Y/N) : ')
 
 
 def cancel_slot(service):
@@ -652,9 +670,10 @@ def cancel_slot(service):
     page_token = None
     all_events = []
     event_id_andstatus = []
-    events = service.events().list(calendarId='f5dk826mlubpqfmmq5fjv9kbqo@group.calendar.google.com',
+    events = service.events().list(calendarId=CLINIC_CALENDAR_ID,
                                    pageToken=page_token, ).execute()
-    user_details = service.events().list(calendarId='primary', pageToken=page_token, ).execute()
+    user_details = service.events().list(
+        calendarId='primary', pageToken=page_token, ).execute()
     events_2 = events
     if len(events['items']) == 0:
         print(colored("Sorry there are no slots available to delete", "red"))
@@ -683,9 +702,6 @@ def cancel_slot(service):
             service.events().delete(calendarId='f5dk826mlubpqfmmq5fjv9kbqo@group.calendar.google.com',
                                     eventId=event_Id).execute()
         return print('You have succefully deleted your slots from the calendar')
-
-
-# tlethets
 
 
 def main():
@@ -717,21 +733,22 @@ def main():
 
 
 def view_calendar():
+    # download_event(service)
     service = main()
     # Call the Calendar API
-    now = datetime.datetime.utcnow().isoformat() + 'Z'  # now = datetime.datetime.now()
+    now = datetime.utcnow().isoformat() + 'Z'  # now = datetime.datetime.now()
     datetime_max_date = parser.parse(now)
     max_date = str(datetime_max_date + timedelta(days=7))
     max_date = parser.parse(max_date)
     max_date = max_date.strftime("%Y-%m-%dT%H:%M:%S") + "Z"
 
-    calendars = ['primary', 'c_pivle9lhu7mn8aensev675obe0@group.calendar.google.com']
+    calendars = ['primary',
+                 CLINIC_CALENDAR_ID]
     # i = 0
     for i in calendars:
 
-        if i == 'c_pivle9lhu7mn8aensev675obe0@group.calendar.google.com':
+        if i == CLINIC_CALENDAR_ID:
             print(colored("\nClinic Calendar", attrs=['bold', 'underline']))
-
 
         else:
             print(colored("\nStudent Calendar", attrs=['bold', 'underline']))
@@ -758,67 +775,71 @@ def view_calendar():
 
             if 'summary' in event:
                 data.append([colored(start_date, 'cyan'), colored(start_time.split('+')[0], 'cyan'),
-                             colored(end_time.split('+')[0], 'cyan'), colored(event['summary'], 'cyan'),
+                             colored(end_time.split(
+                                 '+')[0], 'cyan'), colored(event['summary'], 'cyan'),
                              colored(event['id'], 'cyan'), colored(event['status'], 'green')])
 
         print(tabulate(data, headers=[colored("Date", 'white', attrs=['bold']),
-                                      colored("Start Time", 'white', attrs=['bold']),
-                                      colored("End Time", 'white', attrs=['bold']),
-                                      colored("Summary", 'white', attrs=['bold']),
+                                      colored("Start Time", 'white',
+                                              attrs=['bold']),
+                                      colored("End Time", 'white',
+                                              attrs=['bold']),
+                                      colored("Summary", 'white',
+                                              attrs=['bold']),
                                       colored("ID", 'white', attrs=['bold']),
                                       colored("Status", 'white', attrs=['bold'])], tablefmt="grid"))
 
 
-def add_event():
-    service = main()
-    summ = input("Name of the event: ")
-    desc = input("What you are helping with : ")
-    start_time = input("DD MMM TT(am/pm)...format : ")
+# def add_event():
+#     service = main()
+#     summ = input("Name of the event: ")
+#     desc = input("What you are helping with : ")
+#     start_time = input("DD MMM TT(am/pm)...format : ")
 
-    time_list = list(datefinder.find_dates(start_time))
+#     time_list = list(datefinder.find_dates(start_time))
 
-    if len(time_list):
-        start_time = time_list[0]
-        end = start_time + timedelta(minutes=90)
+#     if len(time_list):
+#         start_time = time_list[0]
+#         end = start_time + timedelta(minutes=90)
 
-    event = {
-        'summary': summ,
-        # 'location': '800 Howard St., San Francisco, CA 94103',
-        'description': desc,
-        'start': {
-            'dateTime': start_time.strftime("%Y-%m-%dT%H:%M:%S"),
-            'timeZone': 'CAT',
-        },
-        'end': {
-            'dateTime': end.strftime("%Y-%m-%dT%H:%M:%S"),
-            'timeZone': "CAT",
-        },
-        'recurrence': [
-            'RRULE:FREQ=DAILY;COUNT=2'
-        ],
-        'attendees': [
-            {'email': 'lpage@example.com'},
-            {'email': 'sbrin@example.com'},
-        ],
-        'reminders': {
-            'useDefault': False,
-            'overrides': [
-                {'method': 'email', 'minutes': 24 * 60},
-                {'method': 'popup', 'minutes': 10},
-            ],
-        },
-    }
+#     event = {
+#         'summary': summ,
+#         # 'location': '800 Howard St., San Francisco, CA 94103',
+#         'description': desc,
+#         'start': {
+#             'dateTime': start_time.strftime("%Y-%m-%dT%H:%M:%S"),
+#             'timeZone': 'CAT',
+#         },
+#         'end': {
+#             'dateTime': end.strftime("%Y-%m-%dT%H:%M:%S"),
+#             'timeZone': "CAT",
+#         },
+#         'recurrence': [
+#             'RRULE:FREQ=DAILY;COUNT=2'
+#         ],
+#         'attendees': [
+#             {'email': 'lpage@example.com'},
+#             {'email': 'sbrin@example.com'},
+#         ],
+#         'reminders': {
+#             'useDefault': False,
+#             'overrides': [
+#                 {'method': 'email', 'minutes': 24 * 60},
+#                 {'method': 'popup', 'minutes': 10},
+#             ],
+#         },
+#     }
 
-    event = service.events().insert(calendarId='c_pivle9lhu7mn8aensev675obe0@group.calendar.google.com',
-                                    body=event).execute()
-    print('Event created: %s' % (event.get('htmlLink')))
+#     event = service.events().insert(calendarId='c_pivle9lhu7mn8aensev675obe0@group.calendar.google.com',
+#                                     body=event).execute()
+#     print('Event created: %s' % (event.get('htmlLink')))
 
 
-def delete_event():
-    service = main()
-    event = input("Which event do you want to delete?")
-    service.events().delete(calendarId='primary', eventId=event).execute()
-    print("Event deleted")
+# def delete_event():
+#     service = main()
+#     event = input("Which event do you want to delete?")
+#     service.events().delete(calendarId='primary', eventId=event).execute()
+#     print("Event deleted")
 
 
 # althotse
@@ -826,11 +847,11 @@ def delete_event():
 # rellis
 
 
-
 if __name__ == "__main__":
-    #jmohale
+
     service = get_calendar_service()
-    
+    download_event(service)
+
     my_parser = argparse.ArgumentParser(prog="booking", description="These are the code clinic commands that can be used in various situations:", usage='%(prog)s <command> [<args]', formatter_class=argparse.RawDescriptionHelpFormatter,
                                         epilog=textwrap.dedent('''\
             Working with the calendar
@@ -844,12 +865,11 @@ if __name__ == "__main__":
 
          '''), add_help=False)
 
-
     if len(sys.argv) == 1:
         my_parser.print_help()
         # view_available_slots()
     elif len(sys.argv) == 2 and sys.argv[1] == 'view_calendar':
-        view_calendar(service)
+        view_calendar()
         # display_calendar(USER_EVENTS, 'MY CALENDAR', 15)
         # display_calendar(CLINIC_EVENTS, 'CLINIC CALENDAR', 15)
     elif len(sys.argv) == 2 and sys.argv[1] == 'volunteer_slot':
@@ -860,48 +880,6 @@ if __name__ == "__main__":
         download_event(service)
     elif len(sys.argv) == 2 and sys.argv[1] == 'view_slot':
         print(view_available_slots(), '\n')
-    elif len(sys.argv) == 3 and valid_book_commands(sys.argv[1:]):
-        book_slot(service, sys.argv[2])
-    elif len(sys.argv) == 2 and sys.argv[1] == 'cancel_volunteer_slot':
-        cancel_slot(service)
-        download_event(service)
-    elif len(sys.argv) == 2 and sys.argv[1] == 'cancel_booking':
-        
-if __name__ == "__main__":
-    #jmohale
-    service = get_calendar_service()
-    
-    my_parser = argparse.ArgumentParser(prog="booking", description="These are the code clinic commands that can be used in various situations:", usage='%(prog)s <command> [<args]', formatter_class=argparse.RawDescriptionHelpFormatter,
-                                        epilog=textwrap.dedent('''\
-            Working with the calendar
-                    book_slot             - book a slot for help 
-                    view_calendar         - display your calendar events and code clinic events
-                    volunteer_slot        - create a slot to volunteer
-                    cancel_booking        - cancel you booking 
-                    cancel_volunteer_slot - remove yourself as a volunteer
-                    view_slot             - view all available slots
-
-
-         '''), add_help=False)
-
-
-    if len(sys.argv) == 1:
-        my_parser.print_help()
-        # view_available_slots()
-    elif len(sys.argv) == 2 and sys.argv[1] == 'view_calendar':
-        view_calendar(service)
-        # display_calendar(USER_EVENTS, 'MY CALENDAR', 15)
-        # display_calendar(CLINIC_EVENTS, 'CLINIC CALENDAR', 15)
-    elif len(sys.argv) == 2 and sys.argv[1] == 'volunteer_slot':
-        volunteer_slot(service)
-        download_event(service)
-    elif len(sys.argv) == 2 and sys.argv[1] == 'book_slot':
-        book_slot(service)
-        download_event(service)
-    elif len(sys.argv) == 2 and sys.argv[1] == 'view_slot':
-        print(view_available_slots(), '\n')
-    elif len(sys.argv) == 3 and valid_book_commands(sys.argv[1:]):
-        book_slot(service, sys.argv[2])
     elif len(sys.argv) == 2 and sys.argv[1] == 'cancel_volunteer_slot':
         cancel_slot(service)
         download_event(service)
@@ -909,9 +887,5 @@ if __name__ == "__main__":
         booking_cancalation(service)
         download_event(service)
     else:
-        print(view_available_slots(), '\n')
-        my_parser.print_help()
-        download_event(service)
-    else:
-        print(view_available_slots(), '\n')
-        my_parser.print_help()
+      my_parser.print_help()
+       

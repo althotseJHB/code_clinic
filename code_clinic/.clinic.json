@@ -1,14 +1,14 @@
 [
     {
         "kind": "calendar#event",
-        "etag": "\"3215550400125000\"",
-        "id": "t3i19pf81o49pfe63v7sps1p6c",
+        "etag": "\"3213456245388000\"",
+        "id": "4jgimarjkaj4veq3ouj29up4uk",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=dDNpMTlwZjgxbzQ5cGZlNjN2N3NwczFwNmMgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
-        "created": "2020-12-12T12:13:19.000Z",
-        "updated": "2020-12-12T12:13:20.143Z",
-        "summary": "Java",
-        "description": "Check",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NGpnaW1hcmprYWo0dmVxM291ajI5dXA0dWsgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-11-30T09:22:02.000Z",
+        "updated": "2020-11-30T09:22:02.723Z",
+        "summary": "git ",
+        "description": "git tutorials",
         "creator": {
             "email": "jmohale@student.wethinkcode.co.za"
         },
@@ -18,14 +18,14 @@
             "self": true
         },
         "start": {
-            "dateTime": "2020-12-15T15:00:00+02:00",
+            "dateTime": "2020-12-30T11:00:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
         "end": {
-            "dateTime": "2020-12-15T15:30:00+02:00",
+            "dateTime": "2020-12-30T11:30:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
-        "iCalUID": "t3i19pf81o49pfe63v7sps1p6c@google.com",
+        "iCalUID": "4jgimarjkaj4veq3ouj29up4uk@google.com",
         "sequence": 0,
         "attendees": [
             {
@@ -33,10 +33,10 @@
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/ygh-ybso-zct",
+        "hangoutLink": "https://meet.google.com/bmo-nxcr-mer",
         "conferenceData": {
             "createRequest": {
-                "requestId": "0b9af6d87b4e4474be04daba236aa80d",
+                "requestId": "99d1475923724deea6a59df2dc07b7fa",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -47,20 +47,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/ygh-ybso-zct",
-                    "label": "meet.google.com/ygh-ybso-zct"
+                    "uri": "https://meet.google.com/bmo-nxcr-mer",
+                    "label": "meet.google.com/bmo-nxcr-mer"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/ygh-ybso-zct?pin=5242997271048",
-                    "pin": "5242997271048"
+                    "uri": "https://tel.meet/bmo-nxcr-mer?pin=9426903442440",
+                    "pin": "9426903442440"
                 },
                 {
                     "regionCode": "US",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-413-853-0349",
-                    "label": "+1 413-853-0349",
-                    "pin": "339877116"
+                    "uri": "tel:+1-440-482-5462",
+                    "label": "+1 440-482-5462",
+                    "pin": "391183019"
                 }
             ],
             "conferenceSolution": {
@@ -70,8 +70,8 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "ygh-ybso-zct",
-            "signature": "AL9oL6UEOxfp8krJNLhB+TJUOy6E"
+            "conferenceId": "bmo-nxcr-mer",
+            "signature": "AGkP/s0kxh/bsk4oDh1iuvLYtDgA"
         },
         "reminders": {
             "useDefault": false,
@@ -89,14 +89,14 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215550402524000\"",
-        "id": "5mn25hgfd8j3j3l4g2116fkf3s",
+        "etag": "\"3213456246650000\"",
+        "id": "b1vgma07fipsap1f9i6r3osk5g",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NW1uMjVoZ2ZkOGozajNsNGcyMTE2ZmtmM3MgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
-        "created": "2020-12-12T12:13:21.000Z",
-        "updated": "2020-12-12T12:13:21.291Z",
-        "summary": "Java",
-        "description": "Check",
+        "htmlLink": "https://www.google.com/calendar/event?eid=YjF2Z21hMDdmaXBzYXAxZjlpNnIzb3NrNWcgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-11-30T09:22:03.000Z",
+        "updated": "2020-11-30T09:22:03.353Z",
+        "summary": "git ",
+        "description": "git tutorials",
         "creator": {
             "email": "jmohale@student.wethinkcode.co.za"
         },
@@ -106,14 +106,14 @@
             "self": true
         },
         "start": {
-            "dateTime": "2020-12-15T15:30:00+02:00",
+            "dateTime": "2020-12-30T11:30:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
         "end": {
-            "dateTime": "2020-12-15T16:00:00+02:00",
+            "dateTime": "2020-12-30T12:00:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
-        "iCalUID": "5mn25hgfd8j3j3l4g2116fkf3s@google.com",
+        "iCalUID": "b1vgma07fipsap1f9i6r3osk5g@google.com",
         "sequence": 0,
         "attendees": [
             {
@@ -121,10 +121,10 @@
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/nzo-sfoa-ouk",
+        "hangoutLink": "https://meet.google.com/tvc-uyfb-aen",
         "conferenceData": {
             "createRequest": {
-                "requestId": "0b9af6d87b4e4474be04daba236aa80d",
+                "requestId": "99d1475923724deea6a59df2dc07b7fa",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -135,20 +135,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/nzo-sfoa-ouk",
-                    "label": "meet.google.com/nzo-sfoa-ouk"
+                    "uri": "https://meet.google.com/tvc-uyfb-aen",
+                    "label": "meet.google.com/tvc-uyfb-aen"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/nzo-sfoa-ouk?pin=7608875608767",
-                    "pin": "7608875608767"
+                    "uri": "https://tel.meet/tvc-uyfb-aen?pin=4368903525018",
+                    "pin": "4368903525018"
                 },
                 {
                     "regionCode": "US",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-727-223-1731",
-                    "label": "+1 727-223-1731",
-                    "pin": "361380868"
+                    "uri": "tel:+1-413-251-4729",
+                    "label": "+1 413-251-4729",
+                    "pin": "800605600"
                 }
             ],
             "conferenceSolution": {
@@ -158,8 +158,8 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "nzo-sfoa-ouk",
-            "signature": "AL9oL6XYpOAEaAuT4uagXdNPt1bJ"
+            "conferenceId": "tvc-uyfb-aen",
+            "signature": "AGkP/s0moq76ezTWpfSk13vhyPs3"
         },
         "reminders": {
             "useDefault": false,
@@ -177,14 +177,14 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215550487557000\"",
-        "id": "5i2urf08fod3mbvt0it28hvl0c",
+        "etag": "\"3213456248017000\"",
+        "id": "6aescpq0ncmrkjfsvikdj0u9ng",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NWkydXJmMDhmb2QzbWJ2dDBpdDI4aHZsMGMgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
-        "created": "2020-12-12T12:13:18.000Z",
-        "updated": "2020-12-12T12:14:48.903Z",
-        "summary": "Java",
-        "description": "Check",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NmFlc2NwcTBuY21ya2pmc3Zpa2RqMHU5bmcgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-11-30T09:22:03.000Z",
+        "updated": "2020-11-30T09:22:04.066Z",
+        "summary": "git ",
+        "description": "git tutorials",
         "creator": {
             "email": "jmohale@student.wethinkcode.co.za"
         },
@@ -194,29 +194,25 @@
             "self": true
         },
         "start": {
-            "dateTime": "2020-12-15T14:30:00+02:00",
+            "dateTime": "2020-12-30T12:00:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
         "end": {
-            "dateTime": "2020-12-15T15:00:00+02:00",
+            "dateTime": "2020-12-30T12:30:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
-        "iCalUID": "5i2urf08fod3mbvt0it28hvl0c@google.com",
+        "iCalUID": "6aescpq0ncmrkjfsvikdj0u9ng@google.com",
         "sequence": 0,
         "attendees": [
             {
                 "email": "jmohale@student.wethinkcode.co.za",
                 "responseStatus": "accepted"
-            },
-            {
-                "email": "lwanelemdu3@gmail.com",
-                "responseStatus": "needsAction"
             }
         ],
-        "hangoutLink": "https://meet.google.com/vtq-kxdc-won",
+        "hangoutLink": "https://meet.google.com/vza-inhr-oiz",
         "conferenceData": {
             "createRequest": {
-                "requestId": "0b9af6d87b4e4474be04daba236aa80d",
+                "requestId": "99d1475923724deea6a59df2dc07b7fa",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -227,20 +223,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/vtq-kxdc-won",
-                    "label": "meet.google.com/vtq-kxdc-won"
+                    "uri": "https://meet.google.com/vza-inhr-oiz",
+                    "label": "meet.google.com/vza-inhr-oiz"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/vtq-kxdc-won?pin=4010105507525",
-                    "pin": "4010105507525"
+                    "uri": "https://tel.meet/vza-inhr-oiz?pin=4574444979943",
+                    "pin": "4574444979943"
                 },
                 {
                     "regionCode": "US",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-347-590-4822",
-                    "label": "+1 347-590-4822",
-                    "pin": "172573415"
+                    "uri": "tel:+1-402-921-2304",
+                    "label": "+1 402-921-2304",
+                    "pin": "475147360"
                 }
             ],
             "conferenceSolution": {
@@ -250,8 +246,8 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "vtq-kxdc-won",
-            "signature": "AL9oL6WjPhfHlio6anfJxGWCuycb"
+            "conferenceId": "vza-inhr-oiz",
+            "signature": "AGkP/s0KJ2Hp+Gqb3UcQwFoP5NEW"
         },
         "reminders": {
             "useDefault": false,
@@ -269,16 +265,16 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215551352360000\"",
-        "id": "nuo5q2pf9vsh02lidhbmmopgr4",
+        "etag": "\"3215379442894000\"",
+        "id": "anu9uehudssueldm97qg94hojg",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=bnVvNXEycGY5dnNoMDJsaWRoYm1tb3BncjQgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
-        "created": "2020-12-12T12:21:16.000Z",
-        "updated": "2020-12-12T12:21:16.256Z",
-        "summary": "Check",
-        "description": "Joseph",
+        "htmlLink": "https://www.google.com/calendar/event?eid=YW51OXVlaHVkc3N1ZWxkbTk3cWc5NGhvamcgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-12-11T12:28:41.000Z",
+        "updated": "2020-12-11T12:28:41.447Z",
+        "summary": "Python TDD",
+        "description": "Code Clinic Group Project Unit Test Volunteer Slot.",
         "creator": {
-            "email": "jmohale@student.wethinkcode.co.za"
+            "email": "smabitse@student.wethinkcode.co.za"
         },
         "organizer": {
             "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
@@ -286,25 +282,25 @@
             "self": true
         },
         "start": {
-            "dateTime": "2020-12-16T14:30:00+02:00",
+            "dateTime": "2030-12-14T14:30:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
         "end": {
-            "dateTime": "2020-12-16T15:00:00+02:00",
+            "dateTime": "2030-12-14T15:00:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
-        "iCalUID": "nuo5q2pf9vsh02lidhbmmopgr4@google.com",
+        "iCalUID": "anu9uehudssueldm97qg94hojg@google.com",
         "sequence": 0,
         "attendees": [
             {
-                "email": "jmohale@student.wethinkcode.co.za",
+                "email": "smabitse@student.wethinkcode.co.za",
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/zqk-xoco-vmm",
+        "hangoutLink": "https://meet.google.com/iea-osdk-afp",
         "conferenceData": {
             "createRequest": {
-                "requestId": "1ecc6f5fa0ea456799f19a78703af5de",
+                "requestId": "447a31d564204713ba4fd2d699204e3f",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -315,20 +311,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/zqk-xoco-vmm",
-                    "label": "meet.google.com/zqk-xoco-vmm"
+                    "uri": "https://meet.google.com/iea-osdk-afp",
+                    "label": "meet.google.com/iea-osdk-afp"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/zqk-xoco-vmm?pin=8654779496975",
-                    "pin": "8654779496975"
+                    "uri": "https://tel.meet/iea-osdk-afp?pin=8291656174857",
+                    "pin": "8291656174857"
                 },
                 {
-                    "regionCode": "US",
+                    "regionCode": "ZA",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-432-652-6419",
-                    "label": "+1 432-652-6419",
-                    "pin": "378774066"
+                    "uri": "tel:+27-10-823-0461",
+                    "label": "+27 10 823 0461",
+                    "pin": "824389400"
                 }
             ],
             "conferenceSolution": {
@@ -338,35 +334,25 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "zqk-xoco-vmm",
-            "signature": "AL9oL6W3bcn4ybzth5/37q9QDZrp"
+            "conferenceId": "iea-osdk-afp",
+            "signature": "AGkP/s2YLAwWSFTabFhWQtCgph0q"
         },
         "reminders": {
-            "useDefault": false,
-            "overrides": [
-                {
-                    "method": "email",
-                    "minutes": 1440
-                },
-                {
-                    "method": "popup",
-                    "minutes": 10
-                }
-            ]
+            "useDefault": true
         }
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215551355239000\"",
-        "id": "55gldqttbvc1h5nsg1jfm6rick",
+        "etag": "\"3215379444174000\"",
+        "id": "85vedle2545mnpd7c8thuo4s0s",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NTVnbGRxdHRidmMxaDVuc2cxamZtNnJpY2sgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
-        "created": "2020-12-12T12:21:17.000Z",
-        "updated": "2020-12-12T12:21:17.696Z",
-        "summary": "Check",
-        "description": "Joseph",
+        "htmlLink": "https://www.google.com/calendar/event?eid=ODV2ZWRsZTI1NDVtbnBkN2M4dGh1bzRzMHMgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-12-11T12:28:42.000Z",
+        "updated": "2020-12-11T12:28:42.087Z",
+        "summary": "Python TDD",
+        "description": "Code Clinic Group Project Unit Test Volunteer Slot.",
         "creator": {
-            "email": "jmohale@student.wethinkcode.co.za"
+            "email": "smabitse@student.wethinkcode.co.za"
         },
         "organizer": {
             "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
@@ -374,25 +360,25 @@
             "self": true
         },
         "start": {
-            "dateTime": "2020-12-16T15:00:00+02:00",
+            "dateTime": "2030-12-14T15:00:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
         "end": {
-            "dateTime": "2020-12-16T15:30:00+02:00",
+            "dateTime": "2030-12-14T15:30:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
-        "iCalUID": "55gldqttbvc1h5nsg1jfm6rick@google.com",
+        "iCalUID": "85vedle2545mnpd7c8thuo4s0s@google.com",
         "sequence": 0,
         "attendees": [
             {
-                "email": "jmohale@student.wethinkcode.co.za",
+                "email": "smabitse@student.wethinkcode.co.za",
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/aqg-btuk-hcg",
+        "hangoutLink": "https://meet.google.com/gcg-gtok-gui",
         "conferenceData": {
             "createRequest": {
-                "requestId": "1ecc6f5fa0ea456799f19a78703af5de",
+                "requestId": "447a31d564204713ba4fd2d699204e3f",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -403,20 +389,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/aqg-btuk-hcg",
-                    "label": "meet.google.com/aqg-btuk-hcg"
+                    "uri": "https://meet.google.com/gcg-gtok-gui",
+                    "label": "meet.google.com/gcg-gtok-gui"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/aqg-btuk-hcg?pin=2684448097763",
-                    "pin": "2684448097763"
+                    "uri": "https://tel.meet/gcg-gtok-gui?pin=1249270174718",
+                    "pin": "1249270174718"
                 },
                 {
-                    "regionCode": "US",
+                    "regionCode": "ZA",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-413-424-4439",
-                    "label": "+1 413-424-4439",
-                    "pin": "983566605"
+                    "uri": "tel:+27-10-823-0972",
+                    "label": "+27 10 823 0972",
+                    "pin": "705806807"
                 }
             ],
             "conferenceSolution": {
@@ -426,35 +412,25 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "aqg-btuk-hcg",
-            "signature": "AL9oL6WCfpzNCzXxk2pzujxYl0Ai"
+            "conferenceId": "gcg-gtok-gui",
+            "signature": "AGkP/s3nWmPsBSpNV0ujgNoJ3yOX"
         },
         "reminders": {
-            "useDefault": false,
-            "overrides": [
-                {
-                    "method": "email",
-                    "minutes": 1440
-                },
-                {
-                    "method": "popup",
-                    "minutes": 10
-                }
-            ]
+            "useDefault": true
         }
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215551358229000\"",
-        "id": "fjmti7qeu02lbkmsc603j0c1b4",
+        "etag": "\"3215379445644000\"",
+        "id": "9ur292rmh4d1hsqg688lhmc9d0",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=ZmptdGk3cWV1MDJsYmttc2M2MDNqMGMxYjQgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
-        "created": "2020-12-12T12:21:19.000Z",
-        "updated": "2020-12-12T12:21:19.143Z",
-        "summary": "Check",
-        "description": "Joseph",
+        "htmlLink": "https://www.google.com/calendar/event?eid=OXVyMjkycm1oNGQxaHNxZzY4OGxobWM5ZDAgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-12-11T12:28:42.000Z",
+        "updated": "2020-12-11T12:28:42.822Z",
+        "summary": "Python TDD",
+        "description": "Code Clinic Group Project Unit Test Volunteer Slot.",
         "creator": {
-            "email": "jmohale@student.wethinkcode.co.za"
+            "email": "smabitse@student.wethinkcode.co.za"
         },
         "organizer": {
             "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
@@ -462,25 +438,25 @@
             "self": true
         },
         "start": {
-            "dateTime": "2020-12-16T15:30:00+02:00",
+            "dateTime": "2030-12-14T15:30:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
         "end": {
-            "dateTime": "2020-12-16T16:00:00+02:00",
+            "dateTime": "2030-12-14T16:00:00+02:00",
             "timeZone": "Africa/Johannesburg"
         },
-        "iCalUID": "fjmti7qeu02lbkmsc603j0c1b4@google.com",
+        "iCalUID": "9ur292rmh4d1hsqg688lhmc9d0@google.com",
         "sequence": 0,
         "attendees": [
             {
-                "email": "jmohale@student.wethinkcode.co.za",
+                "email": "smabitse@student.wethinkcode.co.za",
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/ejh-ftzx-wyx",
+        "hangoutLink": "https://meet.google.com/deh-jqpf-fgi",
         "conferenceData": {
             "createRequest": {
-                "requestId": "1ecc6f5fa0ea456799f19a78703af5de",
+                "requestId": "447a31d564204713ba4fd2d699204e3f",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -491,20 +467,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/ejh-ftzx-wyx",
-                    "label": "meet.google.com/ejh-ftzx-wyx"
+                    "uri": "https://meet.google.com/deh-jqpf-fgi",
+                    "label": "meet.google.com/deh-jqpf-fgi"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/ejh-ftzx-wyx?pin=6527362129723",
-                    "pin": "6527362129723"
+                    "uri": "https://tel.meet/deh-jqpf-fgi?pin=6942977613233",
+                    "pin": "6942977613233"
                 },
                 {
-                    "regionCode": "US",
+                    "regionCode": "ZA",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-505-675-0292",
-                    "label": "+1 505-675-0292",
-                    "pin": "151868059"
+                    "uri": "tel:+27-10-823-0638",
+                    "label": "+27 10 823 0638",
+                    "pin": "729206282"
                 }
             ],
             "conferenceSolution": {
@@ -514,21 +490,11 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "ejh-ftzx-wyx",
-            "signature": "AL9oL6Va1A1yXrYxCqwfM+8esRUK"
+            "conferenceId": "deh-jqpf-fgi",
+            "signature": "AGkP/s0pfGfRNvpVJTQHVtylhh83"
         },
         "reminders": {
-            "useDefault": false,
-            "overrides": [
-                {
-                    "method": "email",
-                    "minutes": 1440
-                },
-                {
-                    "method": "popup",
-                    "minutes": 10
-                }
-            ]
+            "useDefault": true
         }
     }
 ]

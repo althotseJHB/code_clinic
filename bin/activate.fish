@@ -36,7 +36,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/goinfre/althotse/Desktop/group_project/code_clinic_cli"
+set -gx VIRTUAL_ENV "/goinfre/smabitse/code_clinic_v1"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

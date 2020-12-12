@@ -1,4 +1,4 @@
-#!/goinfre/althotse/Desktop/group_project/code_clinic_cli/bin/python
+#!/goinfre/smabitse/code_clinic_v1/bin/python
 
 import sys
 import getopt
