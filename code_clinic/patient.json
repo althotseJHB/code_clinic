@@ -97,245 +97,14 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215708538822000\"",
-        "id": "odn6b7nk0t12qjpp9snp4bn3hg",
+        "etag": "\"3215726499140000\"",
+        "id": "t3i19pf81o49pfe63v7sps1p6c",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=b2RuNmI3bmswdDEycWpwcDlzbnA0Ym4zaGcgc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
-        "created": "2020-12-13T10:11:08.000Z",
-        "updated": "2020-12-13T10:11:09.411Z",
-        "summary": "GoLang",
-        "description": "Golang (The Basics).",
-        "creator": {
-            "email": "smabitse@student.wethinkcode.co.za",
-            "self": true
-        },
-        "organizer": {
-            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
-            "displayName": "Fake code clinic"
-        },
-        "start": {
-            "dateTime": "2020-12-18T13:30:00+02:00"
-        },
-        "end": {
-            "dateTime": "2020-12-18T14:00:00+02:00"
-        },
-        "iCalUID": "odn6b7nk0t12qjpp9snp4bn3hg@google.com",
-        "sequence": 0,
-        "attendees": [
-            {
-                "email": "smabitse@student.wethinkcode.co.za",
-                "self": true,
-                "responseStatus": "accepted"
-            }
-        ],
-        "hangoutLink": "https://meet.google.com/tvb-biwm-vnm",
-        "conferenceData": {
-            "createRequest": {
-                "requestId": "408cbf533da849808df31b9a4f7b9fe8",
-                "conferenceSolutionKey": {
-                    "type": "hangoutsMeet"
-                },
-                "status": {
-                    "statusCode": "success"
-                }
-            },
-            "entryPoints": [
-                {
-                    "entryPointType": "video",
-                    "uri": "https://meet.google.com/tvb-biwm-vnm",
-                    "label": "meet.google.com/tvb-biwm-vnm"
-                },
-                {
-                    "entryPointType": "more",
-                    "uri": "https://tel.meet/tvb-biwm-vnm?pin=1998634370832",
-                    "pin": "1998634370832"
-                },
-                {
-                    "regionCode": "ZA",
-                    "entryPointType": "phone",
-                    "uri": "tel:+27-10-823-0607",
-                    "label": "+27 10 823 0607",
-                    "pin": "138801756"
-                }
-            ],
-            "conferenceSolution": {
-                "key": {
-                    "type": "hangoutsMeet"
-                },
-                "name": "Google Meet",
-                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
-            },
-            "conferenceId": "tvb-biwm-vnm",
-            "signature": "AGkP/s2IANesDfPODclaI3q6ga2v"
-        },
-        "reminders": {
-            "useDefault": true
-        }
-    },
-    {
-        "kind": "calendar#event",
-        "etag": "\"3215708540866000\"",
-        "id": "6iefucpegpkl35gumdt071tv4g",
-        "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NmllZnVjcGVncGtsMzVndW1kdDA3MXR2NGcgc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
-        "created": "2020-12-13T10:11:09.000Z",
-        "updated": "2020-12-13T10:11:10.433Z",
-        "summary": "GoLang",
-        "description": "Golang (The Basics).",
-        "creator": {
-            "email": "smabitse@student.wethinkcode.co.za",
-            "self": true
-        },
-        "organizer": {
-            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
-            "displayName": "Fake code clinic"
-        },
-        "start": {
-            "dateTime": "2020-12-18T14:00:00+02:00"
-        },
-        "end": {
-            "dateTime": "2020-12-18T14:30:00+02:00"
-        },
-        "iCalUID": "6iefucpegpkl35gumdt071tv4g@google.com",
-        "sequence": 0,
-        "attendees": [
-            {
-                "email": "smabitse@student.wethinkcode.co.za",
-                "self": true,
-                "responseStatus": "accepted"
-            }
-        ],
-        "hangoutLink": "https://meet.google.com/wgi-vfdk-ixr",
-        "conferenceData": {
-            "createRequest": {
-                "requestId": "408cbf533da849808df31b9a4f7b9fe8",
-                "conferenceSolutionKey": {
-                    "type": "hangoutsMeet"
-                },
-                "status": {
-                    "statusCode": "success"
-                }
-            },
-            "entryPoints": [
-                {
-                    "entryPointType": "video",
-                    "uri": "https://meet.google.com/wgi-vfdk-ixr",
-                    "label": "meet.google.com/wgi-vfdk-ixr"
-                },
-                {
-                    "entryPointType": "more",
-                    "uri": "https://tel.meet/wgi-vfdk-ixr?pin=9498037516061",
-                    "pin": "9498037516061"
-                },
-                {
-                    "regionCode": "ZA",
-                    "entryPointType": "phone",
-                    "uri": "tel:+27-10-823-0396",
-                    "label": "+27 10 823 0396",
-                    "pin": "313135274"
-                }
-            ],
-            "conferenceSolution": {
-                "key": {
-                    "type": "hangoutsMeet"
-                },
-                "name": "Google Meet",
-                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
-            },
-            "conferenceId": "wgi-vfdk-ixr",
-            "signature": "AGkP/s1ktnHvxXjHnezF3vmM0JyN"
-        },
-        "reminders": {
-            "useDefault": true
-        }
-    },
-    {
-        "kind": "calendar#event",
-        "etag": "\"3215708542360000\"",
-        "id": "kainmtd801ed9dga98dodfeu9s",
-        "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=a2Fpbm10ZDgwMWVkOWRnYTk4ZG9kZmV1OXMgc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
-        "created": "2020-12-13T10:11:10.000Z",
-        "updated": "2020-12-13T10:11:11.180Z",
-        "summary": "GoLang",
-        "description": "Golang (The Basics).",
-        "creator": {
-            "email": "smabitse@student.wethinkcode.co.za",
-            "self": true
-        },
-        "organizer": {
-            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
-            "displayName": "Fake code clinic"
-        },
-        "start": {
-            "dateTime": "2020-12-18T14:30:00+02:00"
-        },
-        "end": {
-            "dateTime": "2020-12-18T15:00:00+02:00"
-        },
-        "iCalUID": "kainmtd801ed9dga98dodfeu9s@google.com",
-        "sequence": 0,
-        "attendees": [
-            {
-                "email": "smabitse@student.wethinkcode.co.za",
-                "self": true,
-                "responseStatus": "accepted"
-            }
-        ],
-        "hangoutLink": "https://meet.google.com/fop-qrqj-pmh",
-        "conferenceData": {
-            "createRequest": {
-                "requestId": "408cbf533da849808df31b9a4f7b9fe8",
-                "conferenceSolutionKey": {
-                    "type": "hangoutsMeet"
-                },
-                "status": {
-                    "statusCode": "success"
-                }
-            },
-            "entryPoints": [
-                {
-                    "entryPointType": "video",
-                    "uri": "https://meet.google.com/fop-qrqj-pmh",
-                    "label": "meet.google.com/fop-qrqj-pmh"
-                },
-                {
-                    "entryPointType": "more",
-                    "uri": "https://tel.meet/fop-qrqj-pmh?pin=2838667949492",
-                    "pin": "2838667949492"
-                },
-                {
-                    "regionCode": "ZA",
-                    "entryPointType": "phone",
-                    "uri": "tel:+27-10-823-0352",
-                    "label": "+27 10 823 0352",
-                    "pin": "760257034"
-                }
-            ],
-            "conferenceSolution": {
-                "key": {
-                    "type": "hangoutsMeet"
-                },
-                "name": "Google Meet",
-                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
-            },
-            "conferenceId": "fop-qrqj-pmh",
-            "signature": "AGkP/s0drEsBRoRy/RVEwWjx611b"
-        },
-        "reminders": {
-            "useDefault": true
-        }
-    },
-    {
-        "kind": "calendar#event",
-        "etag": "\"3215709724670000\"",
-        "id": "48tojkqsionqkl6llh6035njro",
-        "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NDh0b2prcXNpb25xa2w2bGxoNjAzNW5qcm8gc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
-        "created": "2020-12-13T08:46:48.000Z",
-        "updated": "2020-12-13T10:21:02.335Z",
-        "summary": "Javascript",
-        "description": "Javascript for Beginners",
+        "htmlLink": "https://www.google.com/calendar/event?eid=dDNpMTlwZjgxbzQ5cGZlNjN2N3NwczFwNmMgc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
+        "created": "2020-12-12T12:13:19.000Z",
+        "updated": "2020-12-13T12:40:49.570Z",
+        "summary": "Java",
+        "description": "Check",
         "creator": {
             "email": "jmohale@student.wethinkcode.co.za"
         },
@@ -344,12 +113,12 @@
             "displayName": "Fake code clinic"
         },
         "start": {
-            "dateTime": "2020-12-19T14:00:00+02:00"
+            "dateTime": "2020-12-15T15:00:00+02:00"
         },
         "end": {
-            "dateTime": "2020-12-19T14:30:00+02:00"
+            "dateTime": "2020-12-15T15:30:00+02:00"
         },
-        "iCalUID": "48tojkqsionqkl6llh6035njro@google.com",
+        "iCalUID": "t3i19pf81o49pfe63v7sps1p6c@google.com",
         "sequence": 0,
         "attendees": [
             {
@@ -362,10 +131,10 @@
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/bgw-ovpr-cff",
+        "hangoutLink": "https://meet.google.com/ygh-ybso-zct",
         "conferenceData": {
             "createRequest": {
-                "requestId": "f81a139ceb9b4836a7b887f4ef390e05",
+                "requestId": "0b9af6d87b4e4474be04daba236aa80d",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -376,20 +145,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/bgw-ovpr-cff",
-                    "label": "meet.google.com/bgw-ovpr-cff"
+                    "uri": "https://meet.google.com/ygh-ybso-zct",
+                    "label": "meet.google.com/ygh-ybso-zct"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/bgw-ovpr-cff?pin=1975127712480",
-                    "pin": "1975127712480"
+                    "uri": "https://tel.meet/ygh-ybso-zct?pin=5242997271048",
+                    "pin": "5242997271048"
                 },
                 {
                     "regionCode": "US",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-631-397-0210",
-                    "label": "+1 631-397-0210",
-                    "pin": "611806340"
+                    "uri": "tel:+1-413-853-0349",
+                    "label": "+1 413-853-0349",
+                    "pin": "339877116"
                 }
             ],
             "conferenceSolution": {
@@ -399,8 +168,8 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "bgw-ovpr-cff",
-            "signature": "AGkP/s2hUaQdiCa0ofiqItH0wujA"
+            "conferenceId": "ygh-ybso-zct",
+            "signature": "AGkP/s3j/TEmJTMmnmKX5iCC5RjF"
         },
         "reminders": {
             "useDefault": true
@@ -498,7 +267,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -596,7 +365,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -694,7 +463,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -792,7 +561,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -890,7 +659,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -988,7 +757,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1086,7 +855,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1184,7 +953,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1282,7 +1051,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1380,7 +1149,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1478,7 +1247,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1576,7 +1345,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1674,7 +1443,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1772,7 +1541,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1870,7 +1639,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -1968,7 +1737,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2066,7 +1835,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2164,7 +1933,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2262,7 +2031,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2360,7 +2129,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2458,7 +2227,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2556,7 +2325,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2654,7 +2423,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2752,7 +2521,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2850,7 +2619,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -2948,7 +2717,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3046,7 +2815,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3144,7 +2913,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3242,7 +3011,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3340,7 +3109,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3438,7 +3207,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3536,7 +3305,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3634,7 +3403,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3732,7 +3501,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3830,7 +3599,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -3928,7 +3697,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true

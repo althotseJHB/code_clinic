@@ -416,13 +416,13 @@ def sorted_information_cancel_slot(final_lis, events):
         event_temp = {'topic': evnt_topic, 'Clinician name': clin_name, 'event id': [], 'Status': [],
                       'Date and time': [], 'Time': []}
 
-    for event_details in events['items']:
-        if events_available['creator']['email'].split('@')[0]== clin_name and event_details['summary'] == evnt_topic:
-            event_temp['event id'].append(event_details['id'])
-            if len(event_details['attendees']) == 1:
-                status = colored(max_display('slot Open'), 'green')
-            elif len(event_details['attendees']) == 2:
-                status = colored(max_display('slot Closed'), 'red')
+        for event_details in events['items']:
+            if events_available['creator']['email'].split('@')[0]== clin_name and event_details['summary'] == evnt_topic:
+                event_temp['event id'].append(event_details['id'])
+                if len(event_details['attendees']) == 1:
+                    status = colored(max_display('slot Open'), 'green')
+                elif len(event_details['attendees']) == 2:
+                    status = colored(max_display('slot Booked'), 'red')
                 event_temp['Status'].append(status)
                 extracted_date = str(event_details['start']['dateTime'])
                 end_time = str(event_details['end']['dateTime'])
@@ -456,7 +456,7 @@ def sorted_information(final_list, cal_events):
                     # status = max_display('slot Open')
 
                 elif len(event_details['attendees']) == 2:
-                    status = colored(max_display('slot Closed'), 'red')
+                    status = colored(max_display('slot Booked'), 'red')
                     # status = max_display('slot Open')
                 event_temp['Status'].append(status)
                 extracted_date = str(event_details['start']['dateTime'])
@@ -509,16 +509,17 @@ def display_table_and_information_no_return(sorted_events):
 
 def check_the_id(events):
     '''This function takes the eventId provided by the user and check if it is valid and return it if true '''
+    # print(len(events[0]['event id']))
     event_id = input(
         'Please copy & paste the event id that you want to cancel: ')
     while True:
         for count in events:
             if event_id in count['event id']:
                 return event_id
-            else:
-                print('Please type or copy the correct event name')
-                event_id = input(
-                    'Please copy & paste the event id that you want to cancel: ')
+        else:
+            print('Please type or copy the correct event Id')
+            event_id = input(
+                'Please copy & paste the event id that you want to cancel: ')
 
 
 def display_table_and_information(list_events):
@@ -631,6 +632,7 @@ def booking_cancalation(service):
         display_table_header()
         all_events = sorted_information(all_event, events)
         event_ID = display_table_and_information(all_events)
+        
 
     for v in events_2['items']:
         if event_ID == v['id'] and len(v['attendees']) == 2:
@@ -638,6 +640,10 @@ def booking_cancalation(service):
                 clinician_email = v['attendees'][0]['email']
             elif v['attendees'][1]['email'] != user_details['summary']:
                 return print('Sorry your email does not match with the attendee')
+        elif event_ID == v['id'] and len(v['attendees']) == 1:
+            return print(colored('Sorry that slot is empty','red'))
+
+
     event = {
         'attendees': [{'email': clinician_email, 'responseStatus': 'accepted'}, ],
         'reminders': {
@@ -672,8 +678,14 @@ def cancel_slot(service):
     page_token = None
     all_events = []
     event_id_andstatus = []
+    min_range = datetime.now().replace(
+        hour=0, minute=0, second=1)
+    max_range = min_range.replace(hour=23, minute=59, second=59) + timedelta(6)
+    min_range = min_range.strftime("%Y-%m-%dT%H:%M:%S+02:00")
+    max_range = max_range.strftime("%Y-%m-%dT%H:%M:%S+02:00")
+
     events = service.events().list(calendarId=CLINIC_CALENDAR_ID,
-                                   pageToken=page_token, ).execute()
+                                   pageToken=page_token,timeMin=min_range ,timeMax=max_range).execute()
     user_details = service.events().list(
         calendarId='primary', pageToken=page_token, ).execute()
     events_2 = events
@@ -701,7 +713,7 @@ def cancel_slot(service):
     else:
         for event_to_delete in range(len(temp_list)):
             event_Id = temp_list[event_to_delete]
-            service.events().delete(calendarId='f5dk826mlubpqfmmq5fjv9kbqo@group.calendar.google.com',
+            service.events().delete(calendarId=CLINIC_CALENDAR_ID,
                                     eventId=event_Id).execute()
         return print('You have succefully deleted your slots from the calendar')
 
