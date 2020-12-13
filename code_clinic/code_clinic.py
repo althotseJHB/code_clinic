@@ -163,6 +163,9 @@ def file_obj(filename):
 
 
 def view_available_slots():
+    """
+    The view_available_slots() function returns tabulated clinic calendar data. 
+    """
     # download_event(service)
     with open(CLINIC_EVENTS) as events:
         data = json.load(events)
@@ -186,6 +189,11 @@ def view_available_slots():
 
 
 def format_events(event):
+    """
+    The format_events() function appends calendar events to a list
+    in a formatted structure.
+    returns: A list containing the formatted events.
+    """
     rows = []
     rows.append(colored(event['creator']['email'].split('@')[0], 'cyan'))
     rows.append(colored(event['summary'], 'cyan'))
@@ -719,7 +727,8 @@ def cancel_slot(service):
 
 
 def main():
-    """Shows basic usage of the Google Calendar API.
+    """
+    Shows basic usage of the Google Calendar API.
     Prints the start and name of the next 10 events on the user's calendar.
     """
     creds = None
@@ -747,6 +756,11 @@ def main():
 
 
 def view_calendar():
+    """
+    The view_calendar() function displays two calendars
+    \t1 -> Student Calendar - Displays the students personal calendar events.
+    \t1 -> Clinic Calendar -  Displays the code clinics calendar events.
+    """
     # download_event(service)
     service = main()
     # Call the Calendar API

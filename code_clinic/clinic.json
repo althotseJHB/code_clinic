@@ -71,7 +71,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "nzo-sfoa-ouk",
-            "signature": "AGkP/s3/dvmiZjvzqPM0U7CxGBpA"
+            "signature": "AL9oL6XYpOAEaAuT4uagXdNPt1bJ"
         },
         "reminders": {
             "useDefault": true
@@ -153,7 +153,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "vtq-kxdc-won",
-            "signature": "AGkP/s0o5RLz//CDZCwO9mwEXk4V"
+            "signature": "AL9oL6WjPhfHlio6anfJxGWCuycb"
         },
         "reminders": {
             "useDefault": true
@@ -231,7 +231,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "stn-hkyp-yrr",
-            "signature": "AGkP/s0Dxbm7KePoaPHl9BwFK1EG"
+            "signature": "AL9oL6WHjFRRdrTvf8vu6QKTbS1R"
         },
         "reminders": {
             "useDefault": true
@@ -313,7 +313,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "ygh-ybso-zct",
-            "signature": "AGkP/s3j/TEmJTMmnmKX5iCC5RjF"
+            "signature": "AL9oL6UEOxfp8krJNLhB+TJUOy6E"
         },
         "reminders": {
             "useDefault": true
@@ -391,18 +391,18 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "bgw-ovpr-cff",
-            "signature": "AGkP/s2hUaQdiCa0ofiqItH0wujA"
+            "signature": "AL9oL6WJIwrgcAkIX8qMjXgaGHWx"
         },
         "reminders": {
             "useDefault": false,
             "overrides": [
                 {
-                    "method": "popup",
-                    "minutes": 10
-                },
-                {
                     "method": "email",
                     "minutes": 1440
+                },
+                {
+                    "method": "popup",
+                    "minutes": 10
                 }
             ]
         }
@@ -479,18 +479,18 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "vna-fyip-xoo",
-            "signature": "AGkP/s0dIggK2afvE5Q5nWNqG946"
+            "signature": "AL9oL6UgmPxubx1zJ4GC3u8XmXgW"
         },
         "reminders": {
             "useDefault": false,
             "overrides": [
                 {
-                    "method": "popup",
-                    "minutes": 10
-                },
-                {
                     "method": "email",
                     "minutes": 1440
+                },
+                {
+                    "method": "popup",
+                    "minutes": 10
                 }
             ]
         }
