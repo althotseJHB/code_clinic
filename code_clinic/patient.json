@@ -1,94 +1,12 @@
 [
     {
         "kind": "calendar#event",
-        "etag": "\"3210365752800000\"",
-        "id": "hh9bg50vdf6q21u47sk38qnjq4",
-        "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=aGg5Ymc1MHZkZjZxMjF1NDdzazM4cW5qcTQgam1vaGFsZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
-        "created": "2020-11-12T12:07:56.000Z",
-        "updated": "2020-11-12T12:07:56.440Z",
-        "summary": "Intro to Git and GitHub.",
-        "description": "Git",
-        "creator": {
-            "email": "jmohale@student.wethinkcode.co.za",
-            "self": true
-        },
-        "organizer": {
-            "email": "jmohale@student.wethinkcode.co.za",
-            "self": true
-        },
-        "start": {
-            "dateTime": "2020-12-12T14:00:00+02:00",
-            "timeZone": "Africa/Johannesburg"
-        },
-        "end": {
-            "dateTime": "2020-12-12T14:30:00+02:00",
-            "timeZone": "Africa/Johannesburg"
-        },
-        "iCalUID": "hh9bg50vdf6q21u47sk38qnjq4@google.com",
-        "sequence": 0,
-        "hangoutLink": "https://meet.google.com/cbo-hcwd-vmd",
-        "conferenceData": {
-            "createRequest": {
-                "requestId": "dacdc6f37ab448f3be3a84c51bc7b3e7",
-                "conferenceSolutionKey": {
-                    "type": "hangoutsMeet"
-                },
-                "status": {
-                    "statusCode": "success"
-                }
-            },
-            "entryPoints": [
-                {
-                    "entryPointType": "video",
-                    "uri": "https://meet.google.com/cbo-hcwd-vmd",
-                    "label": "meet.google.com/cbo-hcwd-vmd"
-                },
-                {
-                    "entryPointType": "more",
-                    "uri": "https://tel.meet/cbo-hcwd-vmd?pin=9728415609114",
-                    "pin": "9728415609114"
-                },
-                {
-                    "regionCode": "US",
-                    "entryPointType": "phone",
-                    "uri": "tel:+1-402-824-0103",
-                    "label": "+1 402-824-0103",
-                    "pin": "865991076"
-                }
-            ],
-            "conferenceSolution": {
-                "key": {
-                    "type": "hangoutsMeet"
-                },
-                "name": "Google Meet",
-                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
-            },
-            "conferenceId": "cbo-hcwd-vmd",
-            "signature": "AL9oL6VoUArcIrd4JmiK8Y487dMc"
-        },
-        "reminders": {
-            "useDefault": false,
-            "overrides": [
-                {
-                    "method": "email",
-                    "minutes": 1440
-                },
-                {
-                    "method": "popup",
-                    "minutes": 10
-                }
-            ]
-        }
-    },
-    {
-        "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTJUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTJUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -117,6 +35,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -134,7 +53,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -171,7 +89,7 @@
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
             "conferenceId": "occ-zahw-qzr",
-            "signature": "AL9oL6WUA7y0ewF2/LYgQJCmlOWw"
+            "signature": "AGkP/s2K05+yi0KjD44CfRYqllaQ"
         },
         "reminders": {
             "useDefault": true
@@ -179,16 +97,16 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215550402154000\"",
-        "id": "t3i19pf81o49pfe63v7sps1p6c",
+        "etag": "\"3215708538822000\"",
+        "id": "odn6b7nk0t12qjpp9snp4bn3hg",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=dDNpMTlwZjgxbzQ5cGZlNjN2N3NwczFwNmMgam1vaGFsZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
-        "created": "2020-12-12T12:13:19.000Z",
-        "updated": "2020-12-12T12:13:21.077Z",
-        "summary": "Java",
-        "description": "Check",
+        "htmlLink": "https://www.google.com/calendar/event?eid=b2RuNmI3bmswdDEycWpwcDlzbnA0Ym4zaGcgc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
+        "created": "2020-12-13T10:11:08.000Z",
+        "updated": "2020-12-13T10:11:09.411Z",
+        "summary": "GoLang",
+        "description": "Golang (The Basics).",
         "creator": {
-            "email": "jmohale@student.wethinkcode.co.za",
+            "email": "smabitse@student.wethinkcode.co.za",
             "self": true
         },
         "organizer": {
@@ -196,24 +114,24 @@
             "displayName": "Fake code clinic"
         },
         "start": {
-            "dateTime": "2020-12-15T15:00:00+02:00"
+            "dateTime": "2020-12-18T13:30:00+02:00"
         },
         "end": {
-            "dateTime": "2020-12-15T15:30:00+02:00"
+            "dateTime": "2020-12-18T14:00:00+02:00"
         },
-        "iCalUID": "t3i19pf81o49pfe63v7sps1p6c@google.com",
+        "iCalUID": "odn6b7nk0t12qjpp9snp4bn3hg@google.com",
         "sequence": 0,
         "attendees": [
             {
-                "email": "jmohale@student.wethinkcode.co.za",
+                "email": "smabitse@student.wethinkcode.co.za",
                 "self": true,
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/ygh-ybso-zct",
+        "hangoutLink": "https://meet.google.com/tvb-biwm-vnm",
         "conferenceData": {
             "createRequest": {
-                "requestId": "0b9af6d87b4e4474be04daba236aa80d",
+                "requestId": "408cbf533da849808df31b9a4f7b9fe8",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -224,20 +142,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/ygh-ybso-zct",
-                    "label": "meet.google.com/ygh-ybso-zct"
+                    "uri": "https://meet.google.com/tvb-biwm-vnm",
+                    "label": "meet.google.com/tvb-biwm-vnm"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/ygh-ybso-zct?pin=5242997271048",
-                    "pin": "5242997271048"
+                    "uri": "https://tel.meet/tvb-biwm-vnm?pin=1998634370832",
+                    "pin": "1998634370832"
                 },
                 {
-                    "regionCode": "US",
+                    "regionCode": "ZA",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-413-853-0349",
-                    "label": "+1 413-853-0349",
-                    "pin": "339877116"
+                    "uri": "tel:+27-10-823-0607",
+                    "label": "+27 10 823 0607",
+                    "pin": "138801756"
                 }
             ],
             "conferenceSolution": {
@@ -247,8 +165,8 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "ygh-ybso-zct",
-            "signature": "AL9oL6UEOxfp8krJNLhB+TJUOy6E"
+            "conferenceId": "tvb-biwm-vnm",
+            "signature": "AGkP/s2IANesDfPODclaI3q6ga2v"
         },
         "reminders": {
             "useDefault": true
@@ -256,16 +174,16 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215550404450000\"",
-        "id": "5mn25hgfd8j3j3l4g2116fkf3s",
+        "etag": "\"3215708540866000\"",
+        "id": "6iefucpegpkl35gumdt071tv4g",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NW1uMjVoZ2ZkOGozajNsNGcyMTE2ZmtmM3Mgam1vaGFsZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
-        "created": "2020-12-12T12:13:21.000Z",
-        "updated": "2020-12-12T12:13:22.225Z",
-        "summary": "Java",
-        "description": "Check",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NmllZnVjcGVncGtsMzVndW1kdDA3MXR2NGcgc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
+        "created": "2020-12-13T10:11:09.000Z",
+        "updated": "2020-12-13T10:11:10.433Z",
+        "summary": "GoLang",
+        "description": "Golang (The Basics).",
         "creator": {
-            "email": "jmohale@student.wethinkcode.co.za",
+            "email": "smabitse@student.wethinkcode.co.za",
             "self": true
         },
         "organizer": {
@@ -273,24 +191,24 @@
             "displayName": "Fake code clinic"
         },
         "start": {
-            "dateTime": "2020-12-15T15:30:00+02:00"
+            "dateTime": "2020-12-18T14:00:00+02:00"
         },
         "end": {
-            "dateTime": "2020-12-15T16:00:00+02:00"
+            "dateTime": "2020-12-18T14:30:00+02:00"
         },
-        "iCalUID": "5mn25hgfd8j3j3l4g2116fkf3s@google.com",
+        "iCalUID": "6iefucpegpkl35gumdt071tv4g@google.com",
         "sequence": 0,
         "attendees": [
             {
-                "email": "jmohale@student.wethinkcode.co.za",
+                "email": "smabitse@student.wethinkcode.co.za",
                 "self": true,
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/nzo-sfoa-ouk",
+        "hangoutLink": "https://meet.google.com/wgi-vfdk-ixr",
         "conferenceData": {
             "createRequest": {
-                "requestId": "0b9af6d87b4e4474be04daba236aa80d",
+                "requestId": "408cbf533da849808df31b9a4f7b9fe8",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -301,20 +219,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/nzo-sfoa-ouk",
-                    "label": "meet.google.com/nzo-sfoa-ouk"
+                    "uri": "https://meet.google.com/wgi-vfdk-ixr",
+                    "label": "meet.google.com/wgi-vfdk-ixr"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/nzo-sfoa-ouk?pin=7608875608767",
-                    "pin": "7608875608767"
+                    "uri": "https://tel.meet/wgi-vfdk-ixr?pin=9498037516061",
+                    "pin": "9498037516061"
                 },
                 {
-                    "regionCode": "US",
+                    "regionCode": "ZA",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-727-223-1731",
-                    "label": "+1 727-223-1731",
-                    "pin": "361380868"
+                    "uri": "tel:+27-10-823-0396",
+                    "label": "+27 10 823 0396",
+                    "pin": "313135274"
                 }
             ],
             "conferenceSolution": {
@@ -324,8 +242,8 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "nzo-sfoa-ouk",
-            "signature": "AL9oL6XYpOAEaAuT4uagXdNPt1bJ"
+            "conferenceId": "wgi-vfdk-ixr",
+            "signature": "AGkP/s1ktnHvxXjHnezF3vmM0JyN"
         },
         "reminders": {
             "useDefault": true
@@ -333,16 +251,16 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215550579356000\"",
-        "id": "5i2urf08fod3mbvt0it28hvl0c",
+        "etag": "\"3215708542360000\"",
+        "id": "kainmtd801ed9dga98dodfeu9s",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NWkydXJmMDhmb2QzbWJ2dDBpdDI4aHZsMGMgam1vaGFsZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
-        "created": "2020-12-12T12:13:18.000Z",
-        "updated": "2020-12-12T12:14:49.678Z",
-        "summary": "Java",
-        "description": "Check",
+        "htmlLink": "https://www.google.com/calendar/event?eid=a2Fpbm10ZDgwMWVkOWRnYTk4ZG9kZmV1OXMgc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
+        "created": "2020-12-13T10:11:10.000Z",
+        "updated": "2020-12-13T10:11:11.180Z",
+        "summary": "GoLang",
+        "description": "Golang (The Basics).",
         "creator": {
-            "email": "jmohale@student.wethinkcode.co.za",
+            "email": "smabitse@student.wethinkcode.co.za",
             "self": true
         },
         "organizer": {
@@ -350,28 +268,24 @@
             "displayName": "Fake code clinic"
         },
         "start": {
-            "dateTime": "2020-12-15T14:30:00+02:00"
+            "dateTime": "2020-12-18T14:30:00+02:00"
         },
         "end": {
-            "dateTime": "2020-12-15T15:00:00+02:00"
+            "dateTime": "2020-12-18T15:00:00+02:00"
         },
-        "iCalUID": "5i2urf08fod3mbvt0it28hvl0c@google.com",
+        "iCalUID": "kainmtd801ed9dga98dodfeu9s@google.com",
         "sequence": 0,
         "attendees": [
             {
-                "email": "jmohale@student.wethinkcode.co.za",
+                "email": "smabitse@student.wethinkcode.co.za",
                 "self": true,
                 "responseStatus": "accepted"
-            },
-            {
-                "email": "lwanelemdu3@gmail.com",
-                "responseStatus": "needsAction"
             }
         ],
-        "hangoutLink": "https://meet.google.com/vtq-kxdc-won",
+        "hangoutLink": "https://meet.google.com/fop-qrqj-pmh",
         "conferenceData": {
             "createRequest": {
-                "requestId": "0b9af6d87b4e4474be04daba236aa80d",
+                "requestId": "408cbf533da849808df31b9a4f7b9fe8",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -382,20 +296,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/vtq-kxdc-won",
-                    "label": "meet.google.com/vtq-kxdc-won"
+                    "uri": "https://meet.google.com/fop-qrqj-pmh",
+                    "label": "meet.google.com/fop-qrqj-pmh"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/vtq-kxdc-won?pin=4010105507525",
-                    "pin": "4010105507525"
+                    "uri": "https://tel.meet/fop-qrqj-pmh?pin=2838667949492",
+                    "pin": "2838667949492"
                 },
                 {
-                    "regionCode": "US",
+                    "regionCode": "ZA",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-347-590-4822",
-                    "label": "+1 347-590-4822",
-                    "pin": "172573415"
+                    "uri": "tel:+27-10-823-0352",
+                    "label": "+27 10 823 0352",
+                    "pin": "760257034"
                 }
             ],
             "conferenceSolution": {
@@ -405,8 +319,8 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "vtq-kxdc-won",
-            "signature": "AL9oL6WjPhfHlio6anfJxGWCuycb"
+            "conferenceId": "fop-qrqj-pmh",
+            "signature": "AGkP/s0drEsBRoRy/RVEwWjx611b"
         },
         "reminders": {
             "useDefault": true
@@ -414,41 +328,44 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215551355006000\"",
-        "id": "nuo5q2pf9vsh02lidhbmmopgr4",
+        "etag": "\"3215709724670000\"",
+        "id": "48tojkqsionqkl6llh6035njro",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=bnVvNXEycGY5dnNoMDJsaWRoYm1tb3BncjQgam1vaGFsZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
-        "created": "2020-12-12T12:21:16.000Z",
-        "updated": "2020-12-12T12:21:17.503Z",
-        "summary": "Check",
-        "description": "Joseph",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDh0b2prcXNpb25xa2w2bGxoNjAzNW5qcm8gc21hYml0c2VAc3R1ZGVudC53ZXRoaW5rY29kZS5jby56YQ",
+        "created": "2020-12-13T08:46:48.000Z",
+        "updated": "2020-12-13T10:21:02.335Z",
+        "summary": "Javascript",
+        "description": "Javascript for Beginners",
         "creator": {
-            "email": "jmohale@student.wethinkcode.co.za",
-            "self": true
+            "email": "jmohale@student.wethinkcode.co.za"
         },
         "organizer": {
             "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
             "displayName": "Fake code clinic"
         },
         "start": {
-            "dateTime": "2020-12-16T14:30:00+02:00"
+            "dateTime": "2020-12-19T14:00:00+02:00"
         },
         "end": {
-            "dateTime": "2020-12-16T15:00:00+02:00"
+            "dateTime": "2020-12-19T14:30:00+02:00"
         },
-        "iCalUID": "nuo5q2pf9vsh02lidhbmmopgr4@google.com",
+        "iCalUID": "48tojkqsionqkl6llh6035njro@google.com",
         "sequence": 0,
         "attendees": [
             {
                 "email": "jmohale@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
                 "self": true,
                 "responseStatus": "accepted"
             }
         ],
-        "hangoutLink": "https://meet.google.com/zqk-xoco-vmm",
+        "hangoutLink": "https://meet.google.com/bgw-ovpr-cff",
         "conferenceData": {
             "createRequest": {
-                "requestId": "1ecc6f5fa0ea456799f19a78703af5de",
+                "requestId": "f81a139ceb9b4836a7b887f4ef390e05",
                 "conferenceSolutionKey": {
                     "type": "hangoutsMeet"
                 },
@@ -459,20 +376,20 @@
             "entryPoints": [
                 {
                     "entryPointType": "video",
-                    "uri": "https://meet.google.com/zqk-xoco-vmm",
-                    "label": "meet.google.com/zqk-xoco-vmm"
+                    "uri": "https://meet.google.com/bgw-ovpr-cff",
+                    "label": "meet.google.com/bgw-ovpr-cff"
                 },
                 {
                     "entryPointType": "more",
-                    "uri": "https://tel.meet/zqk-xoco-vmm?pin=8654779496975",
-                    "pin": "8654779496975"
+                    "uri": "https://tel.meet/bgw-ovpr-cff?pin=1975127712480",
+                    "pin": "1975127712480"
                 },
                 {
                     "regionCode": "US",
                     "entryPointType": "phone",
-                    "uri": "tel:+1-432-652-6419",
-                    "label": "+1 432-652-6419",
-                    "pin": "378774066"
+                    "uri": "tel:+1-631-397-0210",
+                    "label": "+1 631-397-0210",
+                    "pin": "611806340"
                 }
             ],
             "conferenceSolution": {
@@ -482,8 +399,8 @@
                 "name": "Google Meet",
                 "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
             },
-            "conferenceId": "zqk-xoco-vmm",
-            "signature": "AL9oL6W3bcn4ybzth5/37q9QDZrp"
+            "conferenceId": "bgw-ovpr-cff",
+            "signature": "AGkP/s2hUaQdiCa0ofiqItH0wujA"
         },
         "reminders": {
             "useDefault": true
@@ -491,166 +408,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215551358308000\"",
-        "id": "55gldqttbvc1h5nsg1jfm6rick",
-        "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=NTVnbGRxdHRidmMxaDVuc2cxamZtNnJpY2sgam1vaGFsZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
-        "created": "2020-12-12T12:21:17.000Z",
-        "updated": "2020-12-12T12:21:19.154Z",
-        "summary": "Check",
-        "description": "Joseph",
-        "creator": {
-            "email": "jmohale@student.wethinkcode.co.za",
-            "self": true
-        },
-        "organizer": {
-            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
-            "displayName": "Fake code clinic"
-        },
-        "start": {
-            "dateTime": "2020-12-16T15:00:00+02:00"
-        },
-        "end": {
-            "dateTime": "2020-12-16T15:30:00+02:00"
-        },
-        "iCalUID": "55gldqttbvc1h5nsg1jfm6rick@google.com",
-        "sequence": 0,
-        "attendees": [
-            {
-                "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
-                "responseStatus": "accepted"
-            }
-        ],
-        "hangoutLink": "https://meet.google.com/aqg-btuk-hcg",
-        "conferenceData": {
-            "createRequest": {
-                "requestId": "1ecc6f5fa0ea456799f19a78703af5de",
-                "conferenceSolutionKey": {
-                    "type": "hangoutsMeet"
-                },
-                "status": {
-                    "statusCode": "success"
-                }
-            },
-            "entryPoints": [
-                {
-                    "entryPointType": "video",
-                    "uri": "https://meet.google.com/aqg-btuk-hcg",
-                    "label": "meet.google.com/aqg-btuk-hcg"
-                },
-                {
-                    "entryPointType": "more",
-                    "uri": "https://tel.meet/aqg-btuk-hcg?pin=2684448097763",
-                    "pin": "2684448097763"
-                },
-                {
-                    "regionCode": "US",
-                    "entryPointType": "phone",
-                    "uri": "tel:+1-413-424-4439",
-                    "label": "+1 413-424-4439",
-                    "pin": "983566605"
-                }
-            ],
-            "conferenceSolution": {
-                "key": {
-                    "type": "hangoutsMeet"
-                },
-                "name": "Google Meet",
-                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
-            },
-            "conferenceId": "aqg-btuk-hcg",
-            "signature": "AL9oL6WCfpzNCzXxk2pzujxYl0Ai"
-        },
-        "reminders": {
-            "useDefault": true
-        }
-    },
-    {
-        "kind": "calendar#event",
-        "etag": "\"3215551359780000\"",
-        "id": "fjmti7qeu02lbkmsc603j0c1b4",
-        "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=ZmptdGk3cWV1MDJsYmttc2M2MDNqMGMxYjQgam1vaGFsZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
-        "created": "2020-12-12T12:21:19.000Z",
-        "updated": "2020-12-12T12:21:19.890Z",
-        "summary": "Check",
-        "description": "Joseph",
-        "creator": {
-            "email": "jmohale@student.wethinkcode.co.za",
-            "self": true
-        },
-        "organizer": {
-            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
-            "displayName": "Fake code clinic"
-        },
-        "start": {
-            "dateTime": "2020-12-16T15:30:00+02:00"
-        },
-        "end": {
-            "dateTime": "2020-12-16T16:00:00+02:00"
-        },
-        "iCalUID": "fjmti7qeu02lbkmsc603j0c1b4@google.com",
-        "sequence": 0,
-        "attendees": [
-            {
-                "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
-                "responseStatus": "accepted"
-            }
-        ],
-        "hangoutLink": "https://meet.google.com/ejh-ftzx-wyx",
-        "conferenceData": {
-            "createRequest": {
-                "requestId": "1ecc6f5fa0ea456799f19a78703af5de",
-                "conferenceSolutionKey": {
-                    "type": "hangoutsMeet"
-                },
-                "status": {
-                    "statusCode": "success"
-                }
-            },
-            "entryPoints": [
-                {
-                    "entryPointType": "video",
-                    "uri": "https://meet.google.com/ejh-ftzx-wyx",
-                    "label": "meet.google.com/ejh-ftzx-wyx"
-                },
-                {
-                    "entryPointType": "more",
-                    "uri": "https://tel.meet/ejh-ftzx-wyx?pin=6527362129723",
-                    "pin": "6527362129723"
-                },
-                {
-                    "regionCode": "US",
-                    "entryPointType": "phone",
-                    "uri": "tel:+1-505-675-0292",
-                    "label": "+1 505-675-0292",
-                    "pin": "151868059"
-                }
-            ],
-            "conferenceSolution": {
-                "key": {
-                    "type": "hangoutsMeet"
-                },
-                "name": "Google Meet",
-                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
-            },
-            "conferenceId": "ejh-ftzx-wyx",
-            "signature": "AL9oL6Va1A1yXrYxCqwfM+8esRUK"
-        },
-        "reminders": {
-            "useDefault": true
-        }
-    },
-    {
-        "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201012T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTJUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTJUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -681,6 +444,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -698,7 +462,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -743,12 +506,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201014T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTRUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTRUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -779,6 +542,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -796,7 +560,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -841,12 +604,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201016T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTZUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTZUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -877,6 +640,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -894,7 +658,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -939,12 +702,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201019T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTlUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMTlUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -975,6 +738,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -992,7 +756,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1037,12 +800,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201021T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMjFUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMjFUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1073,6 +836,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1090,7 +854,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1135,12 +898,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201023T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMjNUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMjNUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1171,6 +934,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1188,7 +952,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1233,12 +996,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201026T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMjZUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMjZUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1269,6 +1032,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1286,7 +1050,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1331,12 +1094,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201028T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMjhUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMjhUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1367,6 +1130,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1384,7 +1148,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1429,12 +1192,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201030T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMzBUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEwMzBUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1465,6 +1228,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1482,7 +1246,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1527,12 +1290,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201102T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMDJUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMDJUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1563,6 +1326,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1580,7 +1344,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1625,12 +1388,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201104T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMDRUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMDRUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1661,6 +1424,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1678,7 +1442,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1723,12 +1486,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201106T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMDZUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMDZUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1759,6 +1522,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1776,7 +1540,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1821,12 +1584,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201109T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMDlUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMDlUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1857,6 +1620,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1874,7 +1638,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1919,12 +1682,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201111T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMTFUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMTFUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -1955,6 +1718,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -1972,7 +1736,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2017,12 +1780,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201113T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMTNUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMTNUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2053,6 +1816,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2070,7 +1834,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2115,12 +1878,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201116T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMTZUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMTZUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2151,6 +1914,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2168,7 +1932,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2213,12 +1976,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201118T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMThUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMThUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2249,6 +2012,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2266,7 +2030,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2311,12 +2074,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201120T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMjBUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMjBUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2347,6 +2110,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2364,7 +2128,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2409,12 +2172,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201123T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMjNUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMjNUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2445,6 +2208,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2462,7 +2226,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2507,12 +2270,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201125T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMjVUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMjVUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2543,6 +2306,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2560,7 +2324,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2605,12 +2368,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201127T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMjdUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMjdUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2641,6 +2404,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2658,7 +2422,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2703,12 +2466,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201202T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMDJUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMDJUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2739,6 +2502,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2756,7 +2520,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2801,12 +2564,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201204T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMDRUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMDRUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2837,6 +2600,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2854,7 +2618,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2899,12 +2662,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201207T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMDdUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMDdUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -2935,6 +2698,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2952,7 +2716,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -2997,12 +2760,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201209T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMDlUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMDlUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3033,6 +2796,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3050,7 +2814,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3095,12 +2858,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201211T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMTFUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMTFUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3131,6 +2894,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3148,7 +2912,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3193,12 +2956,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201214T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMTRUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMTRUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3229,6 +2992,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3246,7 +3010,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3291,12 +3054,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201216T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMTZUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMTZUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3327,6 +3090,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3344,7 +3108,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3389,12 +3152,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201218T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMThUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMThUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3425,6 +3188,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3442,7 +3206,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3487,12 +3250,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201221T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMjFUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMjFUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3523,6 +3286,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3540,7 +3304,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3585,12 +3348,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201223T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMjNUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMjNUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3621,6 +3384,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3638,7 +3402,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3683,12 +3446,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201225T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMjVUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMjVUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3719,6 +3482,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3736,7 +3500,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3781,12 +3544,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201228T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMjhUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMjhUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3817,6 +3580,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3834,7 +3598,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3879,12 +3642,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201230T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMzBUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDEyMzBUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -3915,6 +3678,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3932,7 +3696,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -3977,12 +3740,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3211041130936000\"",
+        "etag": "\"3211041130846000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20210101T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMTAxMDFUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMTAxMDFUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-16T09:56:05.468Z",
+        "updated": "2020-11-16T09:56:05.423Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -4013,6 +3776,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -4030,7 +3794,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -4075,12 +3838,12 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3213453683560000\"",
+        "etag": "\"3213453683656000\"",
         "id": "1aqh3m9nos6h7vk8quh59uj13f_20201130T090000Z",
         "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMzBUMDkwMDAwWiBqbW9oYWxlQHN0dWRlbnQud2V0aGlua2NvZGUuY28uemE",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWFxaDNtOW5vczZoN3ZrOHF1aDU5dWoxM2ZfMjAyMDExMzBUMDkwMDAwWiBzbWFiaXRzZUBzdHVkZW50LndldGhpbmtjb2RlLmNvLnph",
         "created": "2020-10-10T17:30:07.000Z",
-        "updated": "2020-11-30T09:00:41.780Z",
+        "updated": "2020-11-30T09:00:41.828Z",
         "summary": "Daily Stand-Up",
         "description": "Daily stand up with mentor just to check in on your progress",
         "creator": {
@@ -4111,6 +3874,7 @@
             },
             {
                 "email": "smabitse@student.wethinkcode.co.za",
+                "self": true,
                 "responseStatus": "accepted"
             },
             {
@@ -4128,7 +3892,6 @@
             },
             {
                 "email": "jmohale@student.wethinkcode.co.za",
-                "self": true,
                 "responseStatus": "accepted"
             },
             {

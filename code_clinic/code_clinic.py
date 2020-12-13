@@ -24,6 +24,7 @@ import textwrap
 from uuid import uuid4
 from tqdm import tqdm
 
+
 CLINIC_CALENDAR_ID = 'c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com'
 CREDENTIALS_FILE = 'client_secret.json'
 CLINIC_EVENTS = 'clinic.json'
@@ -31,13 +32,14 @@ USER_EVENTS = 'patient.json'
 DATE_FORMAT = '%Y-%m-%dT%H:%M:%S+02:00'
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
+
 #althotse
-# def client_secret():
-#     with open("client_secret.json",'r') as secret:
-#         a = secret.read()
-#         secret.close()
-#         return a
-# client_secret()
+def client_secret():
+    with open("client_secret.json",'r') as secret:
+        a = secret.read()
+        secret.close()
+        return a
+client_secret()
 
 # jmohale
 def get_calendar_service():
@@ -57,12 +59,13 @@ def get_calendar_service():
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
+            creds.refresh(Request())    
 
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
                 CREDENTIALS_FILE, SCOPES)
-            creds = flow.run_console()
+            # creds = flow.run_console()
+            creds = flow.run_local_server(port=0)
 
         # Save the credentials for the next run
         with open('token.pickle', 'wb') as token:
@@ -420,15 +423,14 @@ def sorted_information_cancel_slot(final_lis, events):
                 status = colored(max_display('slot Open'), 'green')
             elif len(event_details['attendees']) == 2:
                 status = colored(max_display('slot Closed'), 'red')
-
-            event_temp['Status'].append(status)
-            extracted_date = str(event_details['start']['dateTime'])
-            end_time = str(event_details['end']['dateTime'])
-            temp_date = extracted_date[:10]
-            start_time = extracted_date[11:-9]
-            end_time = end_time[11:-9]
-            event_temp['Date and time'].append(get_date(temp_date))
-            event_temp['Time'].append(f'{start_time} to {end_time}')
+                event_temp['Status'].append(status)
+                extracted_date = str(event_details['start']['dateTime'])
+                end_time = str(event_details['end']['dateTime'])
+                temp_date = extracted_date[:10]
+                start_time = extracted_date[11:-9]
+                end_time = end_time[11:-9]
+                event_temp['Date and time'].append(get_date(temp_date))
+                event_temp['Time'].append(f'{start_time} to {end_time}')
         if event_temp in final_lis:
             continue
         else:
@@ -887,5 +889,4 @@ if __name__ == "__main__":
         booking_cancalation(service)
         download_event(service)
     else:
-      my_parser.print_help()
-       
+        my_parser.print_help()
