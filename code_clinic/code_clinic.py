@@ -804,59 +804,8 @@ def view_calendar():
                                       colored("Status", 'white', attrs=['bold'])], tablefmt="grid"))
 
 
-# def add_event():
-#     service = main()
-#     summ = input("Name of the event: ")
-#     desc = input("What you are helping with : ")
-#     start_time = input("DD MMM TT(am/pm)...format : ")
-
-#     time_list = list(datefinder.find_dates(start_time))
-
-#     if len(time_list):
-#         start_time = time_list[0]
-#         end = start_time + timedelta(minutes=90)
-
-#     event = {
-#         'summary': summ,
-#         # 'location': '800 Howard St., San Francisco, CA 94103',
-#         'description': desc,
-#         'start': {
-#             'dateTime': start_time.strftime("%Y-%m-%dT%H:%M:%S"),
-#             'timeZone': 'CAT',
-#         },
-#         'end': {
-#             'dateTime': end.strftime("%Y-%m-%dT%H:%M:%S"),
-#             'timeZone': "CAT",
-#         },
-#         'recurrence': [
-#             'RRULE:FREQ=DAILY;COUNT=2'
-#         ],
-#         'attendees': [
-#             {'email': 'lpage@example.com'},
-#             {'email': 'sbrin@example.com'},
-#         ],
-#         'reminders': {
-#             'useDefault': False,
-#             'overrides': [
-#                 {'method': 'email', 'minutes': 24 * 60},
-#                 {'method': 'popup', 'minutes': 10},
-#             ],
-#         },
-#     }
-
-#     event = service.events().insert(calendarId='c_pivle9lhu7mn8aensev675obe0@group.calendar.google.com',
-#                                     body=event).execute()
-#     print('Event created: %s' % (event.get('htmlLink')))
-
-
-# def delete_event():
-#     service = main()
-#     event = input("Which event do you want to delete?")
-#     service.events().delete(calendarId='primary', eventId=event).execute()
-#     print("Event deleted")
-
-
 # althotse
+
 
 # rellis
 
@@ -866,21 +815,23 @@ if __name__ == "__main__":
     service = get_calendar_service()
     download_event(service)
 
-    my_parser = argparse.ArgumentParser(prog="booking", description="These are the code clinic commands that can be used in various situations:", usage='%(prog)s <command> [<args]', formatter_class=argparse.RawDescriptionHelpFormatter,
+    my_parser = argparse.ArgumentParser(prog="code clinic", description="These are the code clinic commands that can be used in various situations:", usage='%(prog)s <command>', formatter_class=argparse.RawDescriptionHelpFormatter,
                                         epilog=textwrap.dedent('''\
             Working with the calendar
-                    book_slot             - book a slot for help 
-                    view_calendar         - display your calendar events and code clinic events
-                    volunteer_slot        - create a slot to volunteer
-                    cancel_booking        - cancel you booking 
-                    cancel_volunteer_slot - remove yourself as a volunteer
-                    view_slot             - view all available slots
-
-
+            
+                    view_calendar               - display your calendar events and code clinic events
+                    view_slot                   - view all available slots
+                    book_slot                   - book a slot for help
+                    volunteer_slot              - create a slot to volunteer                                                        
+                    cancel_booking              - cancel you booking 
+                    cancel_volunteer_slot       - remove yourself as a volunteer
+                    help                        - list valid command
          '''), add_help=False)
 
     if len(sys.argv) == 1:
+        print("\n")
         my_parser.print_help()
+        print("\n\n")
         # view_available_slots()
     elif len(sys.argv) == 2 and sys.argv[1] == 'view_calendar':
         view_calendar()
@@ -900,5 +851,11 @@ if __name__ == "__main__":
     elif len(sys.argv) == 2 and sys.argv[1] == 'cancel_booking':
         booking_cancalation(service)
         download_event(service)
-    else:
+    elif len(sys.argv) == 2 and sys.argv[1] == 'help':
+        print("\n")
         my_parser.print_help()
+        print("\n\n")
+    else:
+        print("\n")
+        my_parser.print_help()
+        print("\n\n")
