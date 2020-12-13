@@ -161,84 +161,6 @@
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215698413906000\"",
-        "id": "vd2amedfjhahu8855n2ld6ec0s",
-        "status": "confirmed",
-        "htmlLink": "https://www.google.com/calendar/event?eid=dmQyYW1lZGZqaGFodTg4NTVuMmxkNmVjMHMgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
-        "created": "2020-12-13T08:46:46.000Z",
-        "updated": "2020-12-13T08:46:46.953Z",
-        "summary": "Javascript",
-        "description": "Javascript for Beginners",
-        "creator": {
-            "email": "jmohale@student.wethinkcode.co.za"
-        },
-        "organizer": {
-            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
-            "displayName": "Fake code clinic",
-            "self": true
-        },
-        "start": {
-            "dateTime": "2020-12-19T13:30:00+02:00",
-            "timeZone": "Africa/Johannesburg"
-        },
-        "end": {
-            "dateTime": "2020-12-19T14:00:00+02:00",
-            "timeZone": "Africa/Johannesburg"
-        },
-        "iCalUID": "vd2amedfjhahu8855n2ld6ec0s@google.com",
-        "sequence": 0,
-        "attendees": [
-            {
-                "email": "jmohale@student.wethinkcode.co.za",
-                "responseStatus": "accepted"
-            }
-        ],
-        "hangoutLink": "https://meet.google.com/stn-hkyp-yrr",
-        "conferenceData": {
-            "createRequest": {
-                "requestId": "f81a139ceb9b4836a7b887f4ef390e05",
-                "conferenceSolutionKey": {
-                    "type": "hangoutsMeet"
-                },
-                "status": {
-                    "statusCode": "success"
-                }
-            },
-            "entryPoints": [
-                {
-                    "entryPointType": "video",
-                    "uri": "https://meet.google.com/stn-hkyp-yrr",
-                    "label": "meet.google.com/stn-hkyp-yrr"
-                },
-                {
-                    "entryPointType": "more",
-                    "uri": "https://tel.meet/stn-hkyp-yrr?pin=5010029899284",
-                    "pin": "5010029899284"
-                },
-                {
-                    "regionCode": "US",
-                    "entryPointType": "phone",
-                    "uri": "tel:+1-929-276-0318",
-                    "label": "+1 929-276-0318",
-                    "pin": "452109662"
-                }
-            ],
-            "conferenceSolution": {
-                "key": {
-                    "type": "hangoutsMeet"
-                },
-                "name": "Google Meet",
-                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
-            },
-            "conferenceId": "stn-hkyp-yrr",
-            "signature": "AL9oL6WHjFRRdrTvf8vu6QKTbS1R"
-        },
-        "reminders": {
-            "useDefault": true
-        }
-    },
-    {
-        "kind": "calendar#event",
         "etag": "\"3215726497548000\"",
         "id": "t3i19pf81o49pfe63v7sps1p6c",
         "status": "confirmed",
@@ -397,24 +319,24 @@
             "useDefault": false,
             "overrides": [
                 {
-                    "method": "email",
-                    "minutes": 1440
-                },
-                {
                     "method": "popup",
                     "minutes": 10
+                },
+                {
+                    "method": "email",
+                    "minutes": 1440
                 }
             ]
         }
     },
     {
         "kind": "calendar#event",
-        "etag": "\"3215730604277000\"",
+        "etag": "\"3215735066185000\"",
         "id": "caeduilha80vk7l0jense5r2vc",
         "status": "confirmed",
         "htmlLink": "https://www.google.com/calendar/event?eid=Y2FlZHVpbGhhODB2azdsMGplbnNlNXIydmMgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
         "created": "2020-12-13T08:46:48.000Z",
-        "updated": "2020-12-13T13:15:02.168Z",
+        "updated": "2020-12-13T14:29:24.076Z",
         "summary": "Javascript",
         "description": "Javascript for Beginners",
         "creator": {
@@ -438,6 +360,10 @@
         "attendees": [
             {
                 "email": "jmohale@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
                 "responseStatus": "accepted"
             }
         ],
@@ -485,12 +411,364 @@
             "useDefault": false,
             "overrides": [
                 {
+                    "method": "popup",
+                    "minutes": 10
+                },
+                {
                     "method": "email",
                     "minutes": 1440
+                }
+            ]
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3215749048320000\"",
+        "id": "vd2amedfjhahu8855n2ld6ec0s",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=dmQyYW1lZGZqaGFodTg4NTVuMmxkNmVjMHMgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-12-13T08:46:46.000Z",
+        "updated": "2020-12-13T15:48:44.187Z",
+        "summary": "Javascript",
+        "description": "Javascript for Beginners",
+        "creator": {
+            "email": "jmohale@student.wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
+            "displayName": "Fake code clinic",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2020-12-19T13:30:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-12-19T14:00:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "iCalUID": "vd2amedfjhahu8855n2ld6ec0s@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "jmohale@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/stn-hkyp-yrr",
+        "conferenceData": {
+            "createRequest": {
+                "requestId": "f81a139ceb9b4836a7b887f4ef390e05",
+                "conferenceSolutionKey": {
+                    "type": "hangoutsMeet"
                 },
+                "status": {
+                    "statusCode": "success"
+                }
+            },
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/stn-hkyp-yrr",
+                    "label": "meet.google.com/stn-hkyp-yrr"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/stn-hkyp-yrr?pin=5010029899284",
+                    "pin": "5010029899284"
+                },
+                {
+                    "regionCode": "US",
+                    "entryPointType": "phone",
+                    "uri": "tel:+1-929-276-0318",
+                    "label": "+1 929-276-0318",
+                    "pin": "452109662"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+            },
+            "conferenceId": "stn-hkyp-yrr",
+            "signature": "AL9oL6WHjFRRdrTvf8vu6QKTbS1R"
+        },
+        "reminders": {
+            "useDefault": false,
+            "overrides": [
                 {
                     "method": "popup",
                     "minutes": 10
+                },
+                {
+                    "method": "email",
+                    "minutes": 1440
+                }
+            ]
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3215749794674000\"",
+        "id": "2dmo2mft785b9dvjhh3r5vild4",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MmRtbzJtZnQ3ODViOWR2amhoM3I1dmlsZDQgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-12-13T15:54:57.000Z",
+        "updated": "2020-12-13T15:54:57.415Z",
+        "summary": "Kotlin",
+        "description": "The basics of Kotlin.",
+        "creator": {
+            "email": "smabitse@student.wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
+            "displayName": "Fake code clinic",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2020-12-18T12:15:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-12-18T12:45:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "iCalUID": "2dmo2mft785b9dvjhh3r5vild4@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/ucu-xisp-kxq",
+        "conferenceData": {
+            "createRequest": {
+                "requestId": "6e24c5da8b714f36a0b3c553258f0c34",
+                "conferenceSolutionKey": {
+                    "type": "hangoutsMeet"
+                },
+                "status": {
+                    "statusCode": "success"
+                }
+            },
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/ucu-xisp-kxq",
+                    "label": "meet.google.com/ucu-xisp-kxq"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/ucu-xisp-kxq?pin=5151028254806",
+                    "pin": "5151028254806"
+                },
+                {
+                    "regionCode": "ZA",
+                    "entryPointType": "phone",
+                    "uri": "tel:+27-10-823-0577",
+                    "label": "+27 10 823 0577",
+                    "pin": "553039902"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+            },
+            "conferenceId": "ucu-xisp-kxq",
+            "signature": "AL9oL6VjoFiVyk1HDxDehw7EaOnY"
+        },
+        "reminders": {
+            "useDefault": false,
+            "overrides": [
+                {
+                    "method": "popup",
+                    "minutes": 10
+                },
+                {
+                    "method": "email",
+                    "minutes": 1440
+                }
+            ]
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3215749796511000\"",
+        "id": "80p0f9nu0l2254t112suja4hmg",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=ODBwMGY5bnUwbDIyNTR0MTEyc3VqYTRobWcgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-12-13T15:54:58.000Z",
+        "updated": "2020-12-13T15:54:58.334Z",
+        "summary": "Kotlin",
+        "description": "The basics of Kotlin.",
+        "creator": {
+            "email": "smabitse@student.wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
+            "displayName": "Fake code clinic",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2020-12-18T12:45:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-12-18T13:15:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "iCalUID": "80p0f9nu0l2254t112suja4hmg@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/kiq-hmsh-hde",
+        "conferenceData": {
+            "createRequest": {
+                "requestId": "6e24c5da8b714f36a0b3c553258f0c34",
+                "conferenceSolutionKey": {
+                    "type": "hangoutsMeet"
+                },
+                "status": {
+                    "statusCode": "success"
+                }
+            },
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/kiq-hmsh-hde",
+                    "label": "meet.google.com/kiq-hmsh-hde"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/kiq-hmsh-hde?pin=3960183774471",
+                    "pin": "3960183774471"
+                },
+                {
+                    "regionCode": "ZA",
+                    "entryPointType": "phone",
+                    "uri": "tel:+27-10-823-0800",
+                    "label": "+27 10 823 0800",
+                    "pin": "213843653"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+            },
+            "conferenceId": "kiq-hmsh-hde",
+            "signature": "AL9oL6X3G5MJ7WX/OAe+glOfhYg+"
+        },
+        "reminders": {
+            "useDefault": false,
+            "overrides": [
+                {
+                    "method": "popup",
+                    "minutes": 10
+                },
+                {
+                    "method": "email",
+                    "minutes": 1440
+                }
+            ]
+        }
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3215749798369000\"",
+        "id": "hfm3c4097586dp3s7lal70h0m4",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=aGZtM2M0MDk3NTg2ZHAzczdsYWw3MGgwbTQgY19ja2JpOTg5bzJ1anRjdnR1bW1jbTc1cWpxb0Bn",
+        "created": "2020-12-13T15:54:59.000Z",
+        "updated": "2020-12-13T15:54:59.216Z",
+        "summary": "Kotlin",
+        "description": "The basics of Kotlin.",
+        "creator": {
+            "email": "smabitse@student.wethinkcode.co.za"
+        },
+        "organizer": {
+            "email": "c_ckbi989o2ujtcvtummcm75qjqo@group.calendar.google.com",
+            "displayName": "Fake code clinic",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2020-12-18T13:15:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "end": {
+            "dateTime": "2020-12-18T13:45:00+02:00",
+            "timeZone": "Africa/Johannesburg"
+        },
+        "iCalUID": "hfm3c4097586dp3s7lal70h0m4@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "smabitse@student.wethinkcode.co.za",
+                "responseStatus": "accepted"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/krg-qctf-pbc",
+        "conferenceData": {
+            "createRequest": {
+                "requestId": "6e24c5da8b714f36a0b3c553258f0c34",
+                "conferenceSolutionKey": {
+                    "type": "hangoutsMeet"
+                },
+                "status": {
+                    "statusCode": "success"
+                }
+            },
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/krg-qctf-pbc",
+                    "label": "meet.google.com/krg-qctf-pbc"
+                },
+                {
+                    "entryPointType": "more",
+                    "uri": "https://tel.meet/krg-qctf-pbc?pin=7503402763147",
+                    "pin": "7503402763147"
+                },
+                {
+                    "regionCode": "ZA",
+                    "entryPointType": "phone",
+                    "uri": "tel:+27-10-823-0991",
+                    "label": "+27 10 823 0991",
+                    "pin": "170189731"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+            },
+            "conferenceId": "krg-qctf-pbc",
+            "signature": "AL9oL6VQQTXBR+BxpnTP1bk1aO1Q"
+        },
+        "reminders": {
+            "useDefault": false,
+            "overrides": [
+                {
+                    "method": "popup",
+                    "minutes": 10
+                },
+                {
+                    "method": "email",
+                    "minutes": 1440
                 }
             ]
         }
